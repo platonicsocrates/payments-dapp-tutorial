@@ -11,3 +11,4 @@ interface ConnectWalletProps {
   pubKey: string | null;
   onClick: () => void;
 }
+
