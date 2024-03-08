@@ -53,3 +53,4 @@ export const Fee = (props: FeeProps) => {
           onClick={props.onClick} // Call the onClick function when the "Next" button is clicked
         >
           Next
+        </Button>
