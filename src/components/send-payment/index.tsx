@@ -126,3 +126,4 @@ export const SendPayment = (props: SendPaymentProps) => {
 
   // Function to get the estimated fee for the payment
   const getFee = async () => {
+    setIsGettingFee(true);
