@@ -196,3 +196,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         // Confirm the payment details and sign the transaction
         const setSignedTx = (xdr: string) => {
           setConnectionError(null);
+          setSignedXdr(xdr);
