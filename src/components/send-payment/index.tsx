@@ -353,3 +353,4 @@ export const SendPayment = (props: SendPaymentProps) => {
               <Notification title={connectionError!} variant="error" />
             </div>,
             document.getElementById("root")!,
+          )}
