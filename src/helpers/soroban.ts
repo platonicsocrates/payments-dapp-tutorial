@@ -49,3 +49,4 @@ export const accountToScVal = (account: string) =>
 
 // Function to convert a number to a smart contract value
 export const numberToI128 = (value: number): xdr.ScVal =>
+  nativeToScVal(value, { type: "i128" });
