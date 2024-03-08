@@ -68,3 +68,4 @@ export const parseTokenAmount = (value: string, decimals: number) => {
   while (fraction[fraction.length - 1] === "0") {
     fraction = fraction.substring(0, fraction.length - 1);
   }
+
