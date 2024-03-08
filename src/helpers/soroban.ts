@@ -166,3 +166,4 @@ export const getTokenSymbol = async (
     .addOperation(contract.call("symbol"))
     .setTimeout(TimeoutInfinite)
     .build();
+
