@@ -228,3 +228,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             setFee={setFee}
             setMemo={setMemo}
           />
+        );
