@@ -21,3 +21,4 @@ const DEFAULT_STATS = {
   errorDetails: true,
 
   // Set to true to show information about assets generated during build
+  assets: true,
