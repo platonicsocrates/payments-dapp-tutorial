@@ -24,3 +24,4 @@ export const TxResult = (props: TxResultProps) => (
     </Heading>
     <div className="signed-xdr">
       {/* This is the header for the result XDR */}
+      <p className="detail-header">Result XDR</p>
