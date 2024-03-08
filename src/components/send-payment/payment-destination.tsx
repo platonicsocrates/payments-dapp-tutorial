@@ -42,3 +42,4 @@ export const PaymentDest = (props: PaymentDestProps) => {
       </div>
     </>
   );
+};
