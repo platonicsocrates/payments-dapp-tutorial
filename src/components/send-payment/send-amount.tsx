@@ -25,3 +25,4 @@ export const SendAmount = (props: SendAmountProps) => {
     props.setAmount(event.target.value);
   };
 
+  return (
