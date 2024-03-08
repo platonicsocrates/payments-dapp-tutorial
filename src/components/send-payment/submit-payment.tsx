@@ -11,3 +11,4 @@ import {
 } from "@stellar/design-system";
 
 // Importing helper function to copy content
+import { copyContent } from "../../helpers/dom";
