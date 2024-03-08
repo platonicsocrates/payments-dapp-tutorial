@@ -187,3 +187,4 @@ export const getTokenName = async (
   return result;
 };
 
+// Function to get the token decimals
