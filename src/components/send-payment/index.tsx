@@ -215,3 +215,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             kit={SWKKit}
             setError={setConnectionError}
           />
+        );
