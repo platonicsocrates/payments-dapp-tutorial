@@ -225,3 +225,4 @@ export const getTokenBalance = async (
 export const makePayment = async (
   tokenId: string,
   amount: number,
+  to: string,
