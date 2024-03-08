@@ -8,3 +8,4 @@ import { formatTokenAmount } from "../../helpers/format";
 interface SendAmountProps {
   amount: string; // The amount the user wants to send
   decimals: number; // The number of decimal places for the token
+  balance: string; // The user's account balance
