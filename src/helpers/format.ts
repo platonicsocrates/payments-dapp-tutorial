@@ -17,3 +17,4 @@ export const stroopToXlm = (
 // This function converts XLM (Stellar Lumens) to the base fee in stroops
 export const xlmToStroop = (lumens: BigNumber | string): BigNumber => {
   if (lumens instanceof BigNumber) {
+    return lumens.times(1e7);
