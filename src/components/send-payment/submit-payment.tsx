@@ -86,3 +86,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
           />
         </div>
         <div className="xdr-data">{props.signedXdr}</div>
+      </Card>
