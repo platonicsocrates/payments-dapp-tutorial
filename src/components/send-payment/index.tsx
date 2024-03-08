@@ -333,3 +333,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       {hasHeader && (
         <Layout.Header hasThemeSwitch projectId="soroban-react-payment" />
       )}
+      <div className="Layout__inset account-badge-row">
