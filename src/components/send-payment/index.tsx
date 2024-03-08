@@ -55,3 +55,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   // Default to Futurenet network, only supported network for now
   const [selectedNetwork] = React.useState(FUTURENET_DETAILS);
 
+  // Initial state, empty states for token/transaction details
