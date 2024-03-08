@@ -50,3 +50,4 @@ export const TokenInput = (props: TokenInputProps) => {
         {/* It is disabled if the length of the input value is less than 1. */}
         <Button
           size="md"
+          variant="tertiary"
