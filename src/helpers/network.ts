@@ -14,3 +14,4 @@ export const FUTURENET_DETAILS = {
   networkUrl: "https://horizon-futurenet.stellar.org", // The URL of the Futurenet network
   networkPassphrase: "Test SDF Future Network ; October 2022", // The passphrase of the Futurenet network
 };
+
