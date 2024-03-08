@@ -282,3 +282,4 @@ export const SendPayment = (props: SendPaymentProps) => {
           <PaymentDest
             onClick={onClick}
             setDestination={setPaymentDest}
+            destination={paymentDestination}
