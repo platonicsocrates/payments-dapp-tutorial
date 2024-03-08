@@ -75,3 +75,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
       {/* Heading for the confirmation screen */}
       <Heading as="h1" size="sm">
         Confirm Payment
+      </Heading>
