@@ -42,3 +42,4 @@ const commonConfig = (env) => ({
   },
   // Module rules for different file types
   module: {
+    rules: [
