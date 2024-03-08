@@ -29,3 +29,4 @@ export const Fee = (props: FeeProps) => {
   return (
     <>
       <Heading as="h1" size="sm">
+        Payment Settings
