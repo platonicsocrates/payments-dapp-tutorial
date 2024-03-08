@@ -273,3 +273,4 @@ export const getEstimatedFee = async (
           accountToScVal(pubKey), // from
           accountToScVal(to), // to
           numberToI128(amount), // amount
+        ],
