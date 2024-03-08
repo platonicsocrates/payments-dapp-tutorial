@@ -15,3 +15,4 @@ import {
 } from "@stellar/stellar-sdk";
 
 import BigNumber from "bignumber.js";
+import { NetworkDetails } from "./network";
