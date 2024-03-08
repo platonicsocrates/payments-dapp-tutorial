@@ -67,3 +67,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
     } catch (error) {
       console.log(error);
       props.setError(ERRORS.UNABLE_TO_SIGN_TX);
+    }
