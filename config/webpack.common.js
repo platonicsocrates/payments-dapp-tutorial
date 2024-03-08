@@ -17,3 +17,4 @@ const BUILD_PATH = path.resolve(__dirname, "../build");
 const commonConfig = (env) => ({
   // Entry point for the application
   entry: {
+    index: ["babel-polyfill", path.resolve(__dirname, "../src/index.tsx")],
