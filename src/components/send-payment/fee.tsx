@@ -13,3 +13,4 @@ interface FeeProps {
   setMemo: (memo: string) => void; // Function to set the memo value
 }
 
+// This is the Fee component itself.
