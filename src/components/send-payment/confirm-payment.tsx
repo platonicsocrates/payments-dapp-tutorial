@@ -49,3 +49,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
       xlmToStroop(props.fee).toString(),
       server,
       props.networkDetails.networkPassphrase,
+    );
