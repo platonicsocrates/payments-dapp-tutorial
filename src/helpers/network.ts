@@ -6,3 +6,4 @@ export interface NetworkDetails {
   network: string; // The name of the network
   networkUrl: string; // The URL of the network
   networkPassphrase: string; // The passphrase of the network
+}
