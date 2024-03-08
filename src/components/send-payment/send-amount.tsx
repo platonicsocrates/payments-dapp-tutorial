@@ -26,3 +26,4 @@ export const SendAmount = (props: SendAmountProps) => {
   };
 
   return (
+    <>
