@@ -13,3 +13,4 @@ interface TokenInputProps {
 export const TokenInput = (props: TokenInputProps) => {
   // We're using React hooks here to manage the state of the input field.
   // The value of the input field is stored in the 'value' state variable.
+  const [value, setValue] = React.useState("");
