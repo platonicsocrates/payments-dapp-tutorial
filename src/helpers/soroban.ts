@@ -127,3 +127,4 @@ export const submitTx = async (
   networkPassphrase: string,
   server: SorobanRpc.Server,
 ) => {
+  const tx = TransactionBuilder.fromXDR(signedXDR, networkPassphrase);
