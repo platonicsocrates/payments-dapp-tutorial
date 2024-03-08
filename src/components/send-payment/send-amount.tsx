@@ -20,3 +20,4 @@ export const SendAmount = (props: SendAmountProps) => {
     new BigNumber(props.balance),
   );
 
+  // Function to handle changes in the input field
