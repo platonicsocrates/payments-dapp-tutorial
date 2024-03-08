@@ -279,3 +279,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         // Set the payment destination
         const onClick = () => setStepCount((stepCount + 1) as StepCount);
         return (
+          <PaymentDest
