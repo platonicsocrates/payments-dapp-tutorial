@@ -24,3 +24,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
         git add "$file"
         git commit -m "Committing line to $(basename "$file")"
     done < "$backupFile"
+
