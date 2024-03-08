@@ -24,3 +24,4 @@ export const Fee = (props: FeeProps) => {
   const handleMemoChange = (event: ChangeEvent<HTMLInputElement>) => {
     props.setMemo(event.target.value); // Call the setMemo function with the new memo value
   };
+
