@@ -92,3 +92,4 @@ const commonConfig = (env) => ({
         use: [
           MiniCssExtractPlugin.loader,
           {
+            loader: "css-loader",
