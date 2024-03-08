@@ -242,3 +242,4 @@ export const SendPayment = (props: SendPaymentProps) => {
           return (
             <div className="loading">
               <Loader />
+            </div>
