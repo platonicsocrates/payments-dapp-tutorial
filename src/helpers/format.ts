@@ -36,3 +36,4 @@ export const formatTokenAmount = (amount: BigNumber, decimals: number) => {
       formatted = formatted.substring(0, formatted.length - 1);
     }
 
+    if (formatted.endsWith(".")) {
