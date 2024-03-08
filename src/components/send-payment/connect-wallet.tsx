@@ -31,3 +31,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
         disabled
         fieldSize="md"
         id="selected-network"
+        label="Select your Network"
