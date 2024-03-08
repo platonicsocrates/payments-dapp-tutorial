@@ -214,3 +214,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             networkDetails={selectedNetwork}
             kit={SWKKit}
             setError={setConnectionError}
+          />
