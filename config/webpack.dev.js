@@ -4,3 +4,4 @@
 // We start by importing the necessary modules and configurations.
 const { merge } = require("webpack-merge");
 const webpack = require("webpack");
+const { commonConfig } = require("./webpack.common.js");
