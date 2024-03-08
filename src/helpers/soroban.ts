@@ -176,3 +176,4 @@ export const getTokenName = async (
   tokenId: string,
   txBuilder: TransactionBuilder,
   server: SorobanRpc.Server,
+) => {
