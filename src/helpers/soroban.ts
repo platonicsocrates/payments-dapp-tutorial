@@ -157,3 +157,4 @@ export const submitTx = async (
 
 // Function to get the token symbol
 export const getTokenSymbol = async (
+  tokenId: string,
