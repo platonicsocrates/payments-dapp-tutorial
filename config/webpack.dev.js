@@ -13,3 +13,4 @@ const devConfig = {
   devServer: {
     port: 9000, // The development server will run on port 9000.
   },
+  plugins: [
