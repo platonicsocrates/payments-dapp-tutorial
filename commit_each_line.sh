@@ -23,3 +23,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
 
         # Check if there are changes to commit
         if ! git diff --quiet "$file"; then
+            # Commit the change. Customize the commit message as needed.
