@@ -58,3 +58,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
           {/* Displaying the payment amount and token symbol */}
           {props.amount} {props.tokenSymbol}
         </p>
+      </div>
