@@ -25,3 +25,4 @@ export const Fee = (props: FeeProps) => {
     props.setMemo(event.target.value); // Call the setMemo function with the new memo value
   };
 
+  // The component renders some UI elements.
