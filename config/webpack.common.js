@@ -22,3 +22,4 @@ const commonConfig = (env) => ({
   // Watch options for webpack
   watchOptions: {
     ignored: ["node_modules/**/*", "build/**/*"],
+  },
