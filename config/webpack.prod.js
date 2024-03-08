@@ -8,3 +8,4 @@ const { commonConfig } = require("./webpack.common.js");
 const LOCALES = ["en", "pt"];
 
 // Configuration for production environment
+const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
