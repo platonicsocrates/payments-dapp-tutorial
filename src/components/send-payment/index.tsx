@@ -10,3 +10,4 @@ import {
   Loader,
 } from "@stellar/design-system";
 import {
+  StellarWalletsKit,
