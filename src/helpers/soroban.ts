@@ -37,3 +37,4 @@ export const SendTxStatus: {
 
 // Defining the number of decimal places for XLM
 export const XLM_DECIMALS = 7;
+
