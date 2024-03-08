@@ -114,3 +114,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
       </div>
 
       {/* Button to sign the transaction with Freighter */}
+      <div className="submit-row-confirm">
