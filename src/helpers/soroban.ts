@@ -298,3 +298,4 @@ export const getEstimatedFee = async (
   }
 
   // 'classic' tx fees are measured as the product of tx.fee * 'number of operations', In soroban contract tx,
+  // there can only be single operation in the tx, so can make simplification
