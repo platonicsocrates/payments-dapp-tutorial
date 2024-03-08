@@ -40,3 +40,4 @@ import { Fee } from "./fee";
 import { SubmitPayment } from "./submit-payment";
 import { TxResult } from "./tx-result";
 
+import "./index.scss";
