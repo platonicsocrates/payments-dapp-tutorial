@@ -41,3 +41,4 @@ const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
   ],
   performance: {
     hints: "warning",
+  },
