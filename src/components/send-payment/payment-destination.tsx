@@ -4,3 +4,4 @@ import React, { ChangeEvent } from "react";
 import { Button, Heading, Input } from "@stellar/design-system";
 
 // Here we define the props that this component expects to receive.
+interface PaymentDestProps {
