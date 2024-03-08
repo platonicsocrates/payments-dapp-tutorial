@@ -45,3 +45,4 @@ export const TokenInput = (props: TokenInputProps) => {
       />
 
       {/* This is a div that contains a button. */}
+      <div className="submit-row">
