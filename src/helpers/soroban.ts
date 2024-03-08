@@ -126,3 +126,4 @@ export const submitTx = async (
   signedXDR: string,
   networkPassphrase: string,
   server: SorobanRpc.Server,
+) => {
