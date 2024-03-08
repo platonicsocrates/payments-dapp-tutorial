@@ -12,3 +12,4 @@ interface ConnectWalletProps {
   onClick: () => void;
 }
 
+// This is the actual component function.
