@@ -201,3 +201,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         };
         return (
           <ConfirmPayment
+            tokenId={tokenId}
