@@ -25,3 +25,4 @@ COPY . /app/
 # Installing dependencies using yarn
 RUN yarn install
 
+# Building the application
