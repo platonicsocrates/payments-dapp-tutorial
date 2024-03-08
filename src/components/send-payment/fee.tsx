@@ -40,3 +40,4 @@ export const Fee = (props: FeeProps) => {
       />
       <Input
         fieldSize="md"
+        id="input-memo"
