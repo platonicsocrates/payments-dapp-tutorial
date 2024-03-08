@@ -16,3 +16,4 @@ interface TxResultProps {
   onClick: () => void;
 }
 
+export const TxResult = (props: TxResultProps) => (
