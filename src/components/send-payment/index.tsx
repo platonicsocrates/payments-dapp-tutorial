@@ -6,3 +6,4 @@ import {
   Caption,
   Layout,
   Notification,
+  Profile,
