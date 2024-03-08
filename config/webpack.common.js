@@ -57,3 +57,4 @@ const commonConfig = (env) => ({
         test: /\.html$/,
         use: [
           {
+            loader: "html-loader",
