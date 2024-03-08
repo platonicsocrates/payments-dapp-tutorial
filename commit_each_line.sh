@@ -11,3 +11,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
 
     # Create a backup of the current file
     backupFile="$backupDir/$(basename "$file")"
+    cp "$file" "$backupFile"
