@@ -255,3 +255,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             balance={tokenBalance}
             tokenSymbol={tokenSymbol}
           />
+        );
