@@ -23,3 +23,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
         git commit -m "Updated commit from initial state"
     done < "$backupFile"
 
+    # Cleanup backup for this file
