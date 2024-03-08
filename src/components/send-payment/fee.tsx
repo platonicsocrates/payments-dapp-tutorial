@@ -28,3 +28,4 @@ export const Fee = (props: FeeProps) => {
   // The component renders some UI elements.
   return (
     <>
+      <Heading as="h1" size="sm">
