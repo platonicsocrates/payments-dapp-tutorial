@@ -124,3 +124,4 @@ export const simulateTx = async <ArgType>(
 // Function to build and submit a transaction to the Soroban RPC
 export const submitTx = async (
   signedXDR: string,
+  networkPassphrase: string,
