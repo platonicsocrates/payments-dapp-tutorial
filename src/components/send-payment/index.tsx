@@ -74,3 +74,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   const [txResultXDR, settxResultXDR] = React.useState("");
   const [signedXdr, setSignedXdr] = React.useState("");
 
+  // Loading states
