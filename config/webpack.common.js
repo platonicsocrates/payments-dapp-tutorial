@@ -133,3 +133,4 @@ const commonConfig = (env) => ({
       chunks: ["index"],
       filename: `${BUILD_PATH}/index.html`,
     }),
+    new MiniCssExtractPlugin({
