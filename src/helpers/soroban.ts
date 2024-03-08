@@ -146,3 +146,4 @@ export const submitTx = async (
       await new Promise((resolve) => setTimeout(resolve, 1000));
     }
 
+    if (txResponse.status === SorobanRpc.Api.GetTransactionStatus.SUCCESS) {
