@@ -264,3 +264,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             <div className="loading">
               <Loader />
             </div>
+          );
