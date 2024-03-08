@@ -18,3 +18,4 @@ export const Fee = (props: FeeProps) => {
   // This function handles the change event for the fee input field.
   const handleFeeChange = (event: ChangeEvent<HTMLInputElement>) => {
     props.setFee(event.target.value); // Call the setFee function with the new fee value
+  };
