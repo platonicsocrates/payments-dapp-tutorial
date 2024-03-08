@@ -18,3 +18,4 @@ const devConfig = {
     // This can be useful for conditional logic in our code.
     new webpack.DefinePlugin({
       DEV_SERVER: true,
+    })
