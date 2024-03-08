@@ -184,3 +184,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             destination={paymentDestination}
             amount={sendAmount}
             tokenSymbol={tokenSymbol}
+            fee={fee}
