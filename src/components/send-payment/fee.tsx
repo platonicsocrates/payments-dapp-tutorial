@@ -8,3 +8,4 @@ import { Button, Heading, Input } from "@stellar/design-system";
 interface FeeProps {
   fee: string; // The fee for the payment
   memo: string; // The memo for the payment
+  onClick: () => void; // Function to handle the "Next" button click
