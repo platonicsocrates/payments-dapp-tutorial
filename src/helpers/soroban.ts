@@ -107,3 +107,4 @@ export const getTxBuilder = async (
 
 // Function to simulate a transaction
 export const simulateTx = async <ArgType>(
+  tx: Transaction<Memo<MemoType>, Operation[]>,
