@@ -77,3 +77,4 @@ export const parseTokenAmount = (value: string, decimals: number) => {
   // Fully pad the string with zeros to get to value
   while (fraction.length < decimals) {
     fraction += "0";
+  }
