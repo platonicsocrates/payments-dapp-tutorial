@@ -56,3 +56,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
       props.destination,
       props.pubKey,
       props.memo,
+      builder,
