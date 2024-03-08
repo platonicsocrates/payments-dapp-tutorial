@@ -16,3 +16,4 @@ import {
   ISupportedWallet,
 } from "stellar-wallets-kit";
 
+import { stroopToXlm } from "../../helpers/format";
