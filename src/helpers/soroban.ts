@@ -207,3 +207,4 @@ export const getTokenDecimals = async (
 export const getTokenBalance = async (
   address: string,
   tokenId: string,
+  txBuilder: TransactionBuilder,
