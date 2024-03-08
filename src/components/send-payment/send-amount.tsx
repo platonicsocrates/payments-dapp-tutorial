@@ -49,3 +49,4 @@ export const SendAmount = (props: SendAmountProps) => {
       <div className="submit-row-send">
         <Button
           size="md"
+          variant="tertiary"
