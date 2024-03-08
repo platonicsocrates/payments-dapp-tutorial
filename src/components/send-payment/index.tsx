@@ -199,3 +199,4 @@ export const SendPayment = (props: SendPaymentProps) => {
           setSignedXdr(xdr);
           setStepCount((stepCount + 1) as StepCount);
         };
+        return (
