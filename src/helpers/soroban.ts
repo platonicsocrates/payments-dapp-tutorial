@@ -90,3 +90,4 @@ export const getServer = (networkDetails: NetworkDetails) =>
   new SorobanRpc.Server(RPC_URLS[networkDetails.network], {
     allowHttp: networkDetails.networkUrl.startsWith("http://"),
   });
+
