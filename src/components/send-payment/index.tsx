@@ -189,3 +189,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             isSubmitting={isSubmitting}
             memo={memo}
             onClick={submit}
+          />
