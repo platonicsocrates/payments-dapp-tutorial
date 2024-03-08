@@ -266,3 +266,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             </div>
           );
         }
+        const onClick = async (value: string) => {
