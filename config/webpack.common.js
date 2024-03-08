@@ -67,3 +67,4 @@ const commonConfig = (env) => ({
         exclude: /node-modules/,
       },
       {
+        test: /\.(js)$/,
