@@ -4,3 +4,4 @@ import {
   Contract,
   Memo,
   MemoType,
+  nativeToScVal,
