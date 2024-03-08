@@ -29,3 +29,4 @@ const DEFAULT_STATS = {
   // Set to true to show the hash of the build output
   hash: true,
 
+  // Set to true to show timing information for each build step
