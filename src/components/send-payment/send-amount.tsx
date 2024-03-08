@@ -38,3 +38,4 @@ export const SendAmount = (props: SendAmountProps) => {
 
       {/* Input field for the user to enter the amount */}
       <Input
+        fieldSize="md"
