@@ -19,3 +19,4 @@ export const TokenInput = (props: TokenInputProps) => {
   // It updates the 'value' state variable with the new value.
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     setValue(event.target.value);
+  };
