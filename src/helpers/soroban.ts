@@ -168,3 +168,4 @@ export const getTokenSymbol = async (
     .build();
 
   const result = await simulateTx<string>(tx, server);
+  return result;
