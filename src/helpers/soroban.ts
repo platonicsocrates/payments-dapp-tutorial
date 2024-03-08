@@ -87,3 +87,4 @@ export const parseTokenAmount = (value: string, decimals: number) => {
 
 // Function to get a server configured for a specific network
 export const getServer = (networkDetails: NetworkDetails) =>
+  new SorobanRpc.Server(RPC_URLS[networkDetails.network], {
