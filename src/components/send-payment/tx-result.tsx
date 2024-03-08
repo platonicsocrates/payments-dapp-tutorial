@@ -17,3 +17,4 @@ interface TxResultProps {
 }
 
 export const TxResult = (props: TxResultProps) => (
+  <>
