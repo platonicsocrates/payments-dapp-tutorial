@@ -159,3 +159,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         // Submit the transaction to the network
         const submit = async () => {
           setConnectionError(null);
+          setIsSubmitting(true);
