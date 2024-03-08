@@ -93,3 +93,4 @@ export const getServer = (networkDetails: NetworkDetails) =>
 
 // Function to get a TransactionBuilder configured with our public key
 export const getTxBuilder = async (
+  pubKey: string,
