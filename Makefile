@@ -11,3 +11,4 @@ BUILD_DATE := $(shell date -u +%FT%TZ)
 
 # Command to build the Docker image
 docker-build:
+	$(SUDO) docker build --pull --label org.opencontainers.image.created="$(BUILD_DATE)" -t $(TAG) .
