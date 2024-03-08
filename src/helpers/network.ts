@@ -19,3 +19,4 @@ export const FUTURENET_DETAILS = {
 export const signTx = async (
   xdr: string, // The transaction XDR
   publicKey: string, // The public key of the signer
+  kit: StellarWalletsKit, // The StellarWalletsKit instance
