@@ -221,3 +221,4 @@ export const getTokenBalance = async (
   return result;
 };
 
+// Function to build a "transfer" operation and prepare the corresponding XDR
