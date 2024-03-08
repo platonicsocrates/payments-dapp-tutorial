@@ -84,3 +84,4 @@ const commonConfig = (env) => ({
         use: [
           {
             loader: "svg-url-loader",
+          },
