@@ -79,3 +79,4 @@ const commonConfig = (env) => ({
           },
         ],
       },
+      {
