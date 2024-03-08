@@ -29,3 +29,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
             changeMade=true
         fi
     done < "$backupFile"
+
