@@ -44,3 +44,4 @@ const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
   },
 });
 
+// Export the merged configuration
