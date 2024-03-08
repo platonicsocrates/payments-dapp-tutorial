@@ -268,3 +268,4 @@ export const getEstimatedFee = async (
   const tx = txBuilder
     .addOperation(
       contract.call(
+        "transfer",
