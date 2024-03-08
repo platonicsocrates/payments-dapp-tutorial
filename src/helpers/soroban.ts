@@ -152,3 +152,4 @@ export const submitTx = async (
   }
   throw new Error(
     `Unabled to submit transaction, status: ${sendResponse.status}`,
+  );
