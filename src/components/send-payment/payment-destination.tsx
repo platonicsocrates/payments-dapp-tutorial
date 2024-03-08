@@ -38,3 +38,4 @@ export const PaymentDest = (props: PaymentDestProps) => {
           disabled={props.destination.length < 1} // We disable the button if the payment destination address is empty
         >
           Next
+        </Button>
