@@ -26,3 +26,4 @@ export const TxResult = (props: TxResultProps) => (
       {/* This is the header for the result XDR */}
       <p className="detail-header">Result XDR</p>
       <Card variant="secondary">
+        <div className="xdr-copy">
