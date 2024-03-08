@@ -121,3 +121,4 @@ const commonConfig = (env) => ({
       failOnWarning: true,
     }),
     // new CopyWebpackPlugin({
+    //   patterns: [
