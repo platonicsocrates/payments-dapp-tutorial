@@ -15,3 +15,4 @@ export const PaymentDest = (props: PaymentDestProps) => {
   // This function is triggered whenever the user types in the input field.
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     props.setDestination(event.target.value); // We update the payment destination address with the new value entered by the user.
+  };
