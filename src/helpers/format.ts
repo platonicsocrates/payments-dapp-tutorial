@@ -8,3 +8,4 @@ export const truncateString = (str: string) =>
 export const stroopToXlm = (
   stroops: BigNumber | string | number,
 ): BigNumber => {
+  if (stroops instanceof BigNumber) {
