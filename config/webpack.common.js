@@ -38,3 +38,4 @@ const commonConfig = (env) => ({
     ],
     fallback: {
       buffer: require.resolve("buffer/"),
+    },
