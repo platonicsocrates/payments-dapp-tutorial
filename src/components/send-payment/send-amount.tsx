@@ -43,3 +43,4 @@ export const SendAmount = (props: SendAmountProps) => {
         label="Choose amount to send"
         value={props.amount}
         onChange={handleChange}
+      />
