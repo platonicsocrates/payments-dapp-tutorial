@@ -20,3 +20,4 @@ export const TokenInput = (props: TokenInputProps) => {
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     setValue(event.target.value);
   };
+
