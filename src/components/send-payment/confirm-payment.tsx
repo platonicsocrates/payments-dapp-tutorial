@@ -126,3 +126,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
       </div>
     </>
   );
+};
