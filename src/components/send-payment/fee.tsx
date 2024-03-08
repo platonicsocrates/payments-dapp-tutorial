@@ -43,3 +43,4 @@ export const Fee = (props: FeeProps) => {
         id="input-memo"
         label="Memo"
         value={props.memo} // Display the current memo value
+        onChange={handleMemoChange} // Call the handleMemoChange function when the memo input changes
