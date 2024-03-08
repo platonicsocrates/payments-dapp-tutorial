@@ -60,3 +60,4 @@ export const TokenInput = (props: TokenInputProps) => {
       </div>
     </>
   );
+};
