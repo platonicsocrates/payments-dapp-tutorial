@@ -25,3 +25,4 @@ export const PaymentDest = (props: PaymentDestProps) => {
       <Input
         fieldSize="md"
         id="input-destination"
+        label="Destination Account"
