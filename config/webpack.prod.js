@@ -12,3 +12,4 @@ const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
   mode: "production",
   optimization: {
     minimize: env.PRODUCTION,
+    runtimeChunk: "single",
