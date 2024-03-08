@@ -49,3 +49,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
           {/* The button text is determined by the "text" variable */}
           {text}
         </Button>
+      </div>
