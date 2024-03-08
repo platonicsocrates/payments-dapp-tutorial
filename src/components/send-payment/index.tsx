@@ -324,3 +324,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             onClick={onClick}
           />
         );
+      }
