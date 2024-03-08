@@ -346,3 +346,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             </Caption>
             {renderStep(stepCount)}
           </Card>
+        </div>
