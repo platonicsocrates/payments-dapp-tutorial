@@ -11,3 +11,4 @@ interface PaymentDestProps {
 }
 
 // This is the actual component function.
+export const PaymentDest = (props: PaymentDestProps) => {
