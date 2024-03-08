@@ -131,3 +131,4 @@ export const submitTx = async (
 
   const sendResponse = await server.sendTransaction(tx);
 
+  if (sendResponse.errorResult) {
