@@ -206,3 +206,4 @@ export const getTokenDecimals = async (
 // Function to get the token balance
 export const getTokenBalance = async (
   address: string,
+  tokenId: string,
