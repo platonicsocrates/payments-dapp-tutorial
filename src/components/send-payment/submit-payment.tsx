@@ -20,3 +20,4 @@ interface SubmitPaymentProps {
   fee: string;
   isSubmitting: boolean;
   memo: string;
+  network: string;
