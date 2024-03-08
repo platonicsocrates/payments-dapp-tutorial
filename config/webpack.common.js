@@ -52,3 +52,4 @@ const commonConfig = (env) => ({
         resolve: {
           fullySpecified: false,
         },
+      },
