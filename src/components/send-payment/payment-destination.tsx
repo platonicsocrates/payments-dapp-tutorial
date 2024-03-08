@@ -16,3 +16,4 @@ export const PaymentDest = (props: PaymentDestProps) => {
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     props.setDestination(event.target.value); // We update the payment destination address with the new value entered by the user.
   };
+
