@@ -34,3 +34,4 @@ export const SendTxStatus: {
   Retry: "TRY_AGAIN_LATER",
   Error: "ERROR",
 };
+
