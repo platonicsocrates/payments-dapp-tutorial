@@ -345,3 +345,4 @@ export const SendPayment = (props: SendPaymentProps) => {
               step {stepCount} of 8
             </Caption>
             {renderStep(stepCount)}
+          </Card>
