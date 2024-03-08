@@ -220,3 +220,4 @@ export const getTokenBalance = async (
   const result = await simulateTx<string>(tx, server);
   return result;
 };
+
