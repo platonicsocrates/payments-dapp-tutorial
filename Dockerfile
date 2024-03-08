@@ -23,3 +23,4 @@ RUN apt-get update && apt-get install --no-install-recommends -y gpg curl git ma
 COPY . /app/
 
 # Installing dependencies using yarn
+RUN yarn install
