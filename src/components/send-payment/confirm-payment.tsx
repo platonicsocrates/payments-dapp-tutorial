@@ -33,3 +33,4 @@ interface ConfirmPaymentProps {
   setError: (error: string) => void;
 }
 
+// Define the ConfirmPayment component
