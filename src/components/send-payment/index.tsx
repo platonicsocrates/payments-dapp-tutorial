@@ -349,3 +349,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         </div>
         {connectionError !== null &&
           createPortal(
+            <div className="notification-container">
