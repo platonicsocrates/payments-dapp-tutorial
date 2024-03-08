@@ -17,3 +17,4 @@ import {
 import BigNumber from "bignumber.js";
 import { NetworkDetails } from "./network";
 import { stroopToXlm } from "./format";
+import { ERRORS } from "./error";
