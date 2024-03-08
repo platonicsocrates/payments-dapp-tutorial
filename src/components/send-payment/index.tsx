@@ -162,3 +162,4 @@ export const SendPayment = (props: SendPaymentProps) => {
           setIsSubmitting(true);
           try {
             const server = getServer(selectedNetwork);
+            const result = await submitTx(
