@@ -8,6 +8,8 @@ This project is a decentralized application (DApp) for making payments. It's bui
 
 Here's a brief overview of the main files and directories in this project:
 
+- Pretty much all the Stellar-related code is in the src/ directory alongisde the components for interacting with Freighter, the wallet etc
+
 - `.eslintrc.js`: This file contains the configuration for ESLint, a tool for identifying and reporting on patterns in JavaScript.
 
 - `babel.config.js`: This file is used to configure Babel, a JavaScript compiler.
