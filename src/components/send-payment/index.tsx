@@ -318,3 +318,4 @@ export const SendPayment = (props: SendPaymentProps) => {
           }
         };
         return (
+          <ConnectWallet
