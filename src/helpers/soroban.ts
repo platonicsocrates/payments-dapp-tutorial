@@ -29,3 +29,4 @@ export const baseFeeXlm = stroopToXlm(BASE_FEE).toString();
 export const SendTxStatus: {
   [index: string]: SorobanRpc.Api.SendTransactionStatus;
 } = {
+  Pending: "PENDING",
