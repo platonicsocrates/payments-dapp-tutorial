@@ -22,3 +22,4 @@ const DEFAULT_STATS = {
 
   // Set to true to show information about assets generated during build
   assets: true,
+
