@@ -95,3 +95,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
         {/* Button text */}
         Submit Payment
 
+        {/* Loader component to show loading state */}
