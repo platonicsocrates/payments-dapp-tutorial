@@ -11,3 +11,4 @@ WORKDIR /app
 # Setting the environment variable to avoid interactive prompts during package installation
 ENV DEBIAN_FRONTEND=noninteractive
 
+# Installing necessary packages for building the application
