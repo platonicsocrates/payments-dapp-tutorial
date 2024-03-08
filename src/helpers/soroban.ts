@@ -188,3 +188,4 @@ export const getTokenName = async (
 };
 
 // Function to get the token decimals
+export const getTokenDecimals = async (
