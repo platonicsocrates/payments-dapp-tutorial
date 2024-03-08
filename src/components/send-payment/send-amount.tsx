@@ -19,3 +19,4 @@ export const SendAmount = (props: SendAmountProps) => {
   const canFulfillPayment = new BigNumber(props.amount).isLessThanOrEqualTo(
     new BigNumber(props.balance),
   );
+
