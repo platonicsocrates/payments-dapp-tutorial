@@ -34,3 +34,4 @@ interface ConfirmPaymentProps {
 }
 
 // Define the ConfirmPayment component
+export const ConfirmPayment = (props: ConfirmPaymentProps) => {
