@@ -180,3 +180,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         };
         return (
           <SubmitPayment
+            network={selectedNetwork.network}
