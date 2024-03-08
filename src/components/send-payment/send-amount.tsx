@@ -27,3 +27,4 @@ export const SendAmount = (props: SendAmountProps) => {
 
   return (
     <>
+      {/* Display the available balance */}
