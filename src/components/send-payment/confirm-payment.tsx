@@ -68,3 +68,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
       console.log(error);
       props.setError(ERRORS.UNABLE_TO_SIGN_TX);
     }
+  };
