@@ -182,3 +182,4 @@ export const getTokenName = async (
     .addOperation(contract.call("name"))
     .setTimeout(TimeoutInfinite)
     .build();
+
