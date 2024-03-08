@@ -269,3 +269,4 @@ export const getEstimatedFee = async (
     .addOperation(
       contract.call(
         "transfer",
+        ...[
