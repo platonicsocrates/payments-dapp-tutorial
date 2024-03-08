@@ -341,3 +341,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       <div className="Layout__inset layout">
         <div className="payment">
           <Card variant="primary">
+            <Caption size="sm" addlClassName="step-count">
