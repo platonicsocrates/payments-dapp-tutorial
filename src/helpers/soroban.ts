@@ -117,3 +117,4 @@ export const simulateTx = async <ArgType>(
     response.result !== undefined
   ) {
     return scValToNative(response.result.retval);
+  }
