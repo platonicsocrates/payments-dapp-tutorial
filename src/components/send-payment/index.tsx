@@ -256,3 +256,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             tokenSymbol={tokenSymbol}
           />
         );
+      }
