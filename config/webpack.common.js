@@ -74,3 +74,4 @@ const commonConfig = (env) => ({
       {
         test: /\.png$/,
         use: [
+          {
