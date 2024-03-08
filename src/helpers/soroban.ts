@@ -270,3 +270,4 @@ export const getEstimatedFee = async (
       contract.call(
         "transfer",
         ...[
+          accountToScVal(pubKey), // from
