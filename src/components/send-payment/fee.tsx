@@ -12,3 +12,4 @@ interface FeeProps {
   setFee: (fee: string) => void; // Function to set the fee value
   setMemo: (memo: string) => void; // Function to set the memo value
 }
+
