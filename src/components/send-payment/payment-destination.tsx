@@ -21,3 +21,4 @@ export const PaymentDest = (props: PaymentDestProps) => {
     <>
       <Heading as="h1" size="sm">
         Choose a Payment Destination
+      </Heading>
