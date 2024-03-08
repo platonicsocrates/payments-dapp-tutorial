@@ -14,3 +14,4 @@ docker-build:
 	$(SUDO) docker build --pull --label org.opencontainers.image.created="$(BUILD_DATE)" -t $(TAG) .
 
 # Command to push the Docker image to a registry
+docker-push:
