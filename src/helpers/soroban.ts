@@ -58,3 +58,4 @@ export const parseTokenAmount = (value: string, decimals: number) => {
   let whole = comps[0];
   let fraction = comps[1];
   if (!whole) {
+    whole = "0";
