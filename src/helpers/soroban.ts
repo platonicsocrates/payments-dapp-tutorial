@@ -65,3 +65,4 @@ export const parseTokenAmount = (value: string, decimals: number) => {
   }
 
   // Trim trailing zeros
+  while (fraction[fraction.length - 1] === "0") {
