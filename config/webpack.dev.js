@@ -14,3 +14,4 @@ const devConfig = {
     port: 9000, // The development server will run on port 9000.
   },
   plugins: [
+    // We use the DefinePlugin to define a global variable DEV_SERVER as true.
