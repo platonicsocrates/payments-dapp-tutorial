@@ -29,3 +29,4 @@ const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
           dest: "./",
           extensions: [".ts", ".tsx"],
           options: {
+            createOldCatalogs: false,
