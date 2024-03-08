@@ -57,3 +57,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
         <p className="detail-value">
           {/* Displaying the payment amount and token symbol */}
           {props.amount} {props.tokenSymbol}
+        </p>
