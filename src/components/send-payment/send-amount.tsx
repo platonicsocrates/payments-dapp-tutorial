@@ -5,3 +5,4 @@ import BigNumber from "bignumber.js";
 import { Button, Heading, Input } from "@stellar/design-system";
 import { formatTokenAmount } from "../../helpers/format";
 
+interface SendAmountProps {
