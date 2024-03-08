@@ -180,3 +180,4 @@ export const getTokenName = async (
   const contract = new Contract(tokenId);
   const tx = txBuilder
     .addOperation(contract.call("name"))
+    .setTimeout(TimeoutInfinite)
