@@ -206,3 +206,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             pubKey={activePubKey!}
             tokenSymbol={tokenSymbol}
             onTxSign={setSignedTx}
+            network={selectedNetwork.network}
