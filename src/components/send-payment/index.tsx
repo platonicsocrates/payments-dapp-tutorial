@@ -102,3 +102,4 @@ export const SendPayment = (props: SendPaymentProps) => {
 
     try {
       // Get the symbol for the set token ID
+      const symbol = await getTokenSymbol(id, server);
