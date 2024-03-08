@@ -45,3 +45,4 @@ const commonConfig = (env) => ({
     rules: [
       {
         test: /\.m?js/,
+        type: "javascript/auto",
