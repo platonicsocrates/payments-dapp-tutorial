@@ -27,3 +27,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
             git add "$file"
             git commit -m "Initial commit/update"
             changeMade=true
+        fi
