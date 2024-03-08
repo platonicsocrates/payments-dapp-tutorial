@@ -31,3 +31,4 @@ export const SendAmount = (props: SendAmountProps) => {
       <Heading as="h1" size="sm" addlClassName="title">
         Available Balance
       </Heading>
+      <Heading size="sm" as="h2" addlClassName="balance">
