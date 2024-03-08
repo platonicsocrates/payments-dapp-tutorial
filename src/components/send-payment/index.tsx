@@ -276,3 +276,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         return <TokenInput onClick={onClick} />;
       }
       case 2: {
+        // Set the payment destination
