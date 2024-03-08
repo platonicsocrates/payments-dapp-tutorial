@@ -30,3 +30,4 @@ const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
           extensions: [".ts", ".tsx"],
           options: {
             createOldCatalogs: false,
+            locales: LOCALES,
