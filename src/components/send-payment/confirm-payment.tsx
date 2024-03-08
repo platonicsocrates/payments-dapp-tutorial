@@ -111,3 +111,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
           <p className="detail-header">Memo</p>
           <p className="detail-value">{props.memo}</p>
         </div>
+      </div>
