@@ -211,3 +211,4 @@ export const getTokenBalance = async (
   server: SorobanRpc.Server,
 ) => {
   const params = [accountToScVal(address)];
+  const contract = new Contract(tokenId);
