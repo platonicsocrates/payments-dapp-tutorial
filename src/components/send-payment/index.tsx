@@ -188,3 +188,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             signedXdr={signedXdr}
             isSubmitting={isSubmitting}
             memo={memo}
+            onClick={submit}
