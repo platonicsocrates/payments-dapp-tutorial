@@ -31,3 +31,4 @@ export const PaymentDest = (props: PaymentDestProps) => {
       />
       <div className="submit-row-destination">
         <Button
+          size="md"
