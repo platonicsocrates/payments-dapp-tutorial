@@ -282,3 +282,4 @@ export const getEstimatedFee = async (
     tx.addMemo(Memo.text(memo));
   }
 
+  const raw = tx.build();
