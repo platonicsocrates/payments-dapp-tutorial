@@ -279,3 +279,4 @@ export const getEstimatedFee = async (
     .setTimeout(TimeoutInfinite);
 
   if (memo.length > 0) {
+    tx.addMemo(Memo.text(memo));
