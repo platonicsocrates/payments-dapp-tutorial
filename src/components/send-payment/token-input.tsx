@@ -51,3 +51,4 @@ export const TokenInput = (props: TokenInputProps) => {
         <Button
           size="md"
           variant="tertiary"
+          isFullWidth
