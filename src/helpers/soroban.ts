@@ -2,3 +2,4 @@
 import {
   Address,
   Contract,
+  Memo,
