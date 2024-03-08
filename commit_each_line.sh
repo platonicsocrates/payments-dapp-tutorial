@@ -9,3 +9,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
     
     echo "Processing file: $file"
 
+    # Create a backup of the current file
