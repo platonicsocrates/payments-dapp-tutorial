@@ -31,3 +31,4 @@ RUN yarn build
 # We start with another base image of Nginx 1.17
 FROM nginx:1.17
 
+# Copying the built application from the 'build' stage to the Nginx web server directory
