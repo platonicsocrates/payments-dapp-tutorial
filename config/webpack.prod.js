@@ -18,3 +18,4 @@ const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
   plugins: [
     // Define a global variable DEV_SERVER as false
     new webpack.DefinePlugin({
+      DEV_SERVER: false,
