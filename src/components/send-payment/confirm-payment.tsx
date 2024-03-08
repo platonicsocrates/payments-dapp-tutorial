@@ -44,3 +44,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
     const server = getServer(props.networkDetails);
 
     // Get a transaction builder and use it to add a "transfer" operation and build the corresponding XDR
+    const builder = await getTxBuilder(
