@@ -43,3 +43,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
         <Button
           size="md"
           variant="tertiary"
+          isFullWidth
