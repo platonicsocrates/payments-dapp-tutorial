@@ -138,3 +138,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         memo,
         server,
       );
+      setFee(stroopToXlm(estimatedFee).toString());
