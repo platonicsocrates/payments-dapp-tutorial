@@ -260,3 +260,4 @@ export const getEstimatedFee = async (
   amount: number,
   to: string,
   pubKey: string,
+  memo: string,
