@@ -14,3 +14,4 @@ import {
   WalletNetwork,
   WalletType,
   ISupportedWallet,
+} from "stellar-wallets-kit";
