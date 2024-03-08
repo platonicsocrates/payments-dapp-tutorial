@@ -250,3 +250,4 @@ export const SendPayment = (props: SendPaymentProps) => {
           <SendAmount
             amount={sendAmount}
             decimals={tokenDecimals}
+            setAmount={setSendAmount}
