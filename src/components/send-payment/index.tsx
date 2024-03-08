@@ -268,3 +268,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         }
         const onClick = async (value: string) => {
           const success = await setToken(value);
+
