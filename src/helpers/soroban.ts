@@ -181,3 +181,4 @@ export const getTokenName = async (
   const tx = txBuilder
     .addOperation(contract.call("name"))
     .setTimeout(TimeoutInfinite)
+    .build();
