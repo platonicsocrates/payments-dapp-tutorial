@@ -164,3 +164,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             const server = getServer(selectedNetwork);
             const result = await submitTx(
               signedXdr,
+              selectedNetwork.networkPassphrase,
