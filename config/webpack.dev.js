@@ -19,3 +19,4 @@ const devConfig = {
     new webpack.DefinePlugin({
       DEV_SERVER: true,
     })
+  ],
