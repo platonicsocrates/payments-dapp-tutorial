@@ -134,3 +134,4 @@ const commonConfig = (env) => ({
       filename: `${BUILD_PATH}/index.html`,
     }),
     new MiniCssExtractPlugin({
+      filename: "style.min.css",
