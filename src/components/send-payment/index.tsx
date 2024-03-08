@@ -49,3 +49,4 @@ interface SendPaymentProps {
 }
 
 export const SendPayment = (props: SendPaymentProps) => {
+  // This is only needed when this component is consumed by other components that display a different header
