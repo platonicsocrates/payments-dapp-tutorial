@@ -262,3 +262,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         if (isLoadingTokenDetails) {
           return (
             <div className="loading">
+              <Loader />
