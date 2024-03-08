@@ -182,3 +182,4 @@ export const SendPayment = (props: SendPaymentProps) => {
           <SubmitPayment
             network={selectedNetwork.network}
             destination={paymentDestination}
+            amount={sendAmount}
