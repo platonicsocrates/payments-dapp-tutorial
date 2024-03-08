@@ -25,3 +25,4 @@ export const TokenInput = (props: TokenInputProps) => {
   // It calls the 'onClick' function passed as a prop, and passes the current value of the input field as an argument.
   const onClick = () => {
     props.onClick(value);
+  };
