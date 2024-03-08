@@ -31,3 +31,4 @@ interface ConfirmPaymentProps {
   tokenSymbol: string;
   networkDetails: NetworkDetails;
   setError: (error: string) => void;
+}
