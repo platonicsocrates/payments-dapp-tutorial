@@ -49,3 +49,4 @@ export const Fee = (props: FeeProps) => {
         <Button
           size="md"
           variant="tertiary"
+          isFullWidth
