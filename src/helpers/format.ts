@@ -31,3 +31,4 @@ export const formatTokenAmount = (amount: BigNumber, decimals: number) => {
   if (decimals > 0) {
     formatted = amount.shiftedBy(-decimals).toFixed(decimals).toString();
 
+    // Trim trailing zeros
