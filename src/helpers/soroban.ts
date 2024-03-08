@@ -261,3 +261,4 @@ export const getEstimatedFee = async (
   to: string,
   pubKey: string,
   memo: string,
+  txBuilder: TransactionBuilder,
