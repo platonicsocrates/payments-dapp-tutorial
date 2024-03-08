@@ -309,3 +309,4 @@ export const SendPayment = (props: SendPaymentProps) => {
                   setActivePubKey(publicKey);
                 } catch (error) {
                   console.log(error);
+                  setConnectionError(ERRORS.WALLET_CONNECTION_REJECTED);
