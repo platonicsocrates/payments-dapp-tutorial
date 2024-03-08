@@ -45,3 +45,4 @@ const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
 });
 
 // Export the merged configuration
+module.exports = (env) => merge(prodConfig(env), commonConfig(env));
