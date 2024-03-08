@@ -106,3 +106,4 @@ const commonConfig = (env) => ({
           {
             loader: "file-loader",
             options: {
+              name: "[name].[ext]",
