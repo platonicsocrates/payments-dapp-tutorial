@@ -223,3 +223,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         return (
           <Fee
             fee={fee}
+            memo={memo}
