@@ -12,3 +12,4 @@ import {
 
 // Importing helper function to copy content
 import { copyContent } from "../../helpers/dom";
+
