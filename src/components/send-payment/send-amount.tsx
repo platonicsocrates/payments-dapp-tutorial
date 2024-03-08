@@ -51,3 +51,4 @@ export const SendAmount = (props: SendAmountProps) => {
           size="md"
           variant="tertiary"
           isFullWidth
+          onClick={props.onClick}
