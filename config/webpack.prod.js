@@ -34,3 +34,4 @@ const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
             output: "src/locales/$LOCALE/$NAMESPACE.json",
             sort: true,
             useKeysAsDefaultValue: true,
+          },
