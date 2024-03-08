@@ -115,3 +115,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       setLoadingTokenDetails(false);
 
       return true;
+    } catch (error) {
