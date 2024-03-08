@@ -27,3 +27,4 @@ export const Fee = (props: FeeProps) => {
 
   // The component renders some UI elements.
   return (
+    <>
