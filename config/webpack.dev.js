@@ -12,3 +12,4 @@ const devConfig = {
   devtool: "inline-source-map",
   devServer: {
     port: 9000, // The development server will run on port 9000.
+  },
