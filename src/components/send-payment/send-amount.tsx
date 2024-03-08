@@ -37,3 +37,4 @@ export const SendAmount = (props: SendAmountProps) => {
       </Heading>
 
       {/* Input field for the user to enter the amount */}
+      <Input
