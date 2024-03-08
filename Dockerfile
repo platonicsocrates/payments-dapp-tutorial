@@ -27,3 +27,4 @@ RUN yarn install
 
 # Building the application
 RUN yarn build
+
