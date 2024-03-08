@@ -48,3 +48,4 @@ interface SendPaymentProps {
   hasHeader?: boolean; // Optional prop to determine if a header should be displayed
 }
 
+export const SendPayment = (props: SendPaymentProps) => {
