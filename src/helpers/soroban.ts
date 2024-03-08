@@ -135,3 +135,4 @@ export const submitTx = async (
     throw new Error(ERRORS.UNABLE_TO_SUBMIT_TX);
   }
 
+  if (sendResponse.status === SendTxStatus.Pending) {
