@@ -58,3 +58,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
       props.memo,
       builder,
       server,
+    );
