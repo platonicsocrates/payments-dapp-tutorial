@@ -54,3 +54,4 @@ export const TokenInput = (props: TokenInputProps) => {
           isFullWidth
           onClick={onClick}
           disabled={value.length < 1}
+        >
