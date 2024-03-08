@@ -253,3 +253,4 @@ export const makePayment = async (
 
   return preparedTransaction.toXDR();
 };
+
