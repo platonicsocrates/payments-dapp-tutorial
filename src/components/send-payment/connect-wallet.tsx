@@ -50,3 +50,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
           {text}
         </Button>
       </div>
+    </>
