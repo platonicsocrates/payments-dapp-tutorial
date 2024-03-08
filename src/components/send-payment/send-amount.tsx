@@ -36,3 +36,4 @@ export const SendAmount = (props: SendAmountProps) => {
         {props.tokenSymbol}
       </Heading>
 
+      {/* Input field for the user to enter the amount */}
