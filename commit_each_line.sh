@@ -20,3 +20,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
 
         # Force a commit for each line without checking for changes
         git add "$file"
+        git commit -m "Updated commit from initial state"
