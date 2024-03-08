@@ -29,3 +29,4 @@ interface ConfirmPaymentProps {
   tokenId: string;
   tokenDecimals: number;
   tokenSymbol: string;
+  networkDetails: NetworkDetails;
