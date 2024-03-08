@@ -12,3 +12,4 @@ WORKDIR /app
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Installing necessary packages for building the application
+RUN apt-get update && apt-get install --no-install-recommends -y gpg curl git make ca-certificates apt-transport-https && \
