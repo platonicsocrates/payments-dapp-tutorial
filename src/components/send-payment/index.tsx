@@ -334,3 +334,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         <Layout.Header hasThemeSwitch projectId="soroban-react-payment" />
       )}
       <div className="Layout__inset account-badge-row">
+        {activePubKey !== null && (
