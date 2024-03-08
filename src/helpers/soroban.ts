@@ -43,3 +43,4 @@ export const RPC_URLS: { [key: string]: string } = {
   FUTURENET: "https://rpc-futurenet.stellar.org/",
 };
 
+// Function to convert an account address to a smart contract value
