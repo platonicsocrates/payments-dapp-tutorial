@@ -34,3 +34,4 @@ export const PaymentDest = (props: PaymentDestProps) => {
           size="md"
           variant="tertiary"
           isFullWidth
+          onClick={props.onClick} // We bind the onClick function to the "Next" button's onClick event
