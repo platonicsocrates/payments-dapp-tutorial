@@ -28,3 +28,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
             git commit -m "Initial commit/update"
             changeMade=true
         fi
+    done < "$backupFile"
