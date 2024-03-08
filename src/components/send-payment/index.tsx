@@ -205,3 +205,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             tokenDecimals={tokenDecimals}
             pubKey={activePubKey!}
             tokenSymbol={tokenSymbol}
+            onTxSign={setSignedTx}
