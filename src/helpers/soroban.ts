@@ -132,3 +132,4 @@ export const submitTx = async (
   const sendResponse = await server.sendTransaction(tx);
 
   if (sendResponse.errorResult) {
+    throw new Error(ERRORS.UNABLE_TO_SUBMIT_TX);
