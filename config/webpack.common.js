@@ -80,3 +80,4 @@ const commonConfig = (env) => ({
         ],
       },
       {
+        test: /\.svg$/,
