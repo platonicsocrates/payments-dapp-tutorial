@@ -4,3 +4,4 @@
 // It also provides a button to sign the transaction using a service called Freighter.
 
 import React from "react";
+import { Button, Heading, Profile } from "@stellar/design-system";
