@@ -236,3 +236,4 @@ export const SendPayment = (props: SendPaymentProps) => {
           // Set the estimated fee for the next step
           await getFee();
           setStepCount((stepCount + 1) as StepCount);
+        };
