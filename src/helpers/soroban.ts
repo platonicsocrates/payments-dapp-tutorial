@@ -230,3 +230,4 @@ export const makePayment = async (
   memo: string,
   txBuilder: TransactionBuilder,
   server: SorobanRpc.Server,
+) => {
