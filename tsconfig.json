@@ -1,0 +1,37 @@
+// This is the configuration file for TypeScript compiler options.
+{
+  // We are extending the configuration from the "@stellar/tsconfig" package.
+  "extends": "@stellar/tsconfig",
+  // We want to include the "src" and "public" directories for compilation.
+  "include": [
+    "src",
+    "public"
+  ],
+  // We want to exclude the "build" directory from compilation.
+  "exclude": [
+    "build"
+  ],
+  // Compiler options for TypeScript.
+  "compilerOptions": {
+    // The base URL for module resolution is set to the "src" directory.
+    "baseUrl": "src/",
+    // Import helpers are enabled to assist with module imports.
+    "importHelpers": true,
+    // The target ECMAScript version is set to ES2020.
+    "target": "ES2020",
+    // The libraries that are available for compilation are "dom", "dom.iterable", and "esnext".
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    // The module system is set to "esnext".
+    "module": "esnext",
+    // Module resolution is done using the Node.js resolution algorithm.
+    "moduleResolution": "node",
+    // JSX syntax is enabled for React.
+    "jsx": "react",
+    // Synthetic default imports are allowed.
+    "allowSyntheticDefaultImports": true
+  }
+}

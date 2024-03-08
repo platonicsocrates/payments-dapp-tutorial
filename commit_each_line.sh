@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# Temporary backup directory
+backupDir="./backup_for_commits"
+mkdir -p "$backupDir" # Create backup directory if it doesn't exist
+
+# Exclude paths and files in the find command directly
+find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.lock" ! -iname "tsconfig.json" ! -iname "babel.config.js" ! -iname ".eslintrc.js" ! -iname "README.md" ! -iname "nginx.conf" ! -path './.git/*' ! -path "./$backupDir/*" ! -path './.idea/*' ! -path './node_modules/*' ! -path './public/*' ! -path './src/*' \) -print0 | while IFS= read -r -d $'\0' file; do
+    
+    # Create a backup of the current file
+    backupFile="$backupDir/$(basename "$file")"
+    cp "$file" "$backupFile"
+    
+    # Clear the file content temporarily if necessary
+    > "$file"
+
+    # Track whether any change has been made
+    changeMade=false
+
+    # Read the backup file line by line
+    while IFS= read -r line; do
+        echo "$line" >> "$file" # Append the current line for a cumulative build-up
+
+        # Check if there are changes to commit
+        if ! git diff --quiet "$file"; then
+            # Commit the change. Customize the commit message as needed.
+            git add "$file"
+            git commit -m "Initial commit/update"
+            changeMade=true
+        fi
+    done < "$backupFile"
+
+    # If no changes were made, restore the file
+    if [ "$changeMade" = false ]; then
+        mv "$backupFile" "$file"
+    fi
+
+    # Cleanup backup for this file
+    rm -f "$backupFile"
+done
+
+# Remove the temporary backup directory if it's empty
+rmdir "$backupDir" 2>/dev/null
