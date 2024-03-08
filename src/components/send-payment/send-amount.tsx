@@ -57,3 +57,4 @@ export const SendAmount = (props: SendAmountProps) => {
           Next
         </Button>
       </div>
+    </>
