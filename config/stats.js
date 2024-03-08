@@ -33,3 +33,4 @@ const DEFAULT_STATS = {
   timings: true,
 };
 
+module.exports = {
