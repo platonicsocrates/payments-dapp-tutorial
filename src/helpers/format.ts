@@ -12,3 +12,4 @@ export const stroopToXlm = (
     return stroops.dividedBy(1e7);
   }
   return new BigNumber(Number(stroops) / 1e7);
+};
