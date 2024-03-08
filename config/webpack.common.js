@@ -51,3 +51,4 @@ const commonConfig = (env) => ({
         test: /\.m?js/,
         resolve: {
           fullySpecified: false,
+        },
