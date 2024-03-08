@@ -82,3 +82,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
           <IconButton
             altText="copy signed xdr data"
             icon={<Icon.ContentCopy key="copy-icon" />}
+            onClick={() => copyContent(props.signedXdr)}
