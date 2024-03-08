@@ -48,3 +48,4 @@ export const TokenInput = (props: TokenInputProps) => {
       <div className="submit-row">
         {/* This is a button that says "Next". */}
         {/* It is disabled if the length of the input value is less than 1. */}
+        <Button
