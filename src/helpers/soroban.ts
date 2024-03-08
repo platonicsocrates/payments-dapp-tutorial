@@ -210,3 +210,4 @@ export const getTokenBalance = async (
   txBuilder: TransactionBuilder,
   server: SorobanRpc.Server,
 ) => {
+  const params = [accountToScVal(address)];
