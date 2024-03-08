@@ -55,3 +55,4 @@ export const TokenInput = (props: TokenInputProps) => {
           onClick={onClick}
           disabled={value.length < 1}
         >
+          Next
