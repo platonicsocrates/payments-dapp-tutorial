@@ -290,3 +290,4 @@ export const getEstimatedFee = async (
     throw simResponse.error;
   }
 
+  if (
