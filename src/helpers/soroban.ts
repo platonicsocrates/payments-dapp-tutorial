@@ -125,3 +125,4 @@ export const simulateTx = async <ArgType>(
 export const submitTx = async (
   signedXDR: string,
   networkPassphrase: string,
+  server: SorobanRpc.Server,
