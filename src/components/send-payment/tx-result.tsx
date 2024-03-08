@@ -27,3 +27,4 @@ export const TxResult = (props: TxResultProps) => (
       <p className="detail-header">Result XDR</p>
       <Card variant="secondary">
         <div className="xdr-copy">
+          {/* This is the button to copy the result XDR */}
