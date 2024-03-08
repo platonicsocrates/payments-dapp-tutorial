@@ -235,3 +235,4 @@ export const makePayment = async (
   const tx = txBuilder
     .addOperation(
       contract.call(
+        "transfer",
