@@ -71,3 +71,4 @@ const commonConfig = (env) => ({
         use: ["babel-loader"],
         include: /webextension-polyfill/,
       },
+      {
