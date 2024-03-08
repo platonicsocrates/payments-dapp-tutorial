@@ -19,3 +19,4 @@ import { NetworkDetails } from "./network";
 import { stroopToXlm } from "./format";
 import { ERRORS } from "./error";
 
+// TODO: once soroban supports estimated fees, we can fetch this
