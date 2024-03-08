@@ -28,3 +28,4 @@ export const xlmToStroop = (lumens: BigNumber | string): BigNumber => {
 export const formatTokenAmount = (amount: BigNumber, decimals: number) => {
   let formatted = amount.toString();
 
+  if (decimals > 0) {
