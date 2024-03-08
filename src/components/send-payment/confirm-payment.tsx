@@ -51,3 +51,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
       props.networkDetails.networkPassphrase,
     );
     const xdr = await makePayment(
+      props.tokenId,
