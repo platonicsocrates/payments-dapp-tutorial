@@ -202,3 +202,4 @@ export const getTokenDecimals = async (
   const result = await simulateTx<number>(tx, server);
   return result;
 };
+
