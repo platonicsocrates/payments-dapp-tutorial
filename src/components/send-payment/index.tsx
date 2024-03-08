@@ -167,3 +167,4 @@ export const SendPayment = (props: SendPaymentProps) => {
               selectedNetwork.networkPassphrase,
               server,
             );
+
