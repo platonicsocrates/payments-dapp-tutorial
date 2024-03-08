@@ -30,3 +30,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
       <Select
         disabled
         fieldSize="md"
+        id="selected-network"
