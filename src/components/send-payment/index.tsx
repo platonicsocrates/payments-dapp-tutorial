@@ -239,3 +239,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         };
 
         if (isGettingFee) {
+          return (
