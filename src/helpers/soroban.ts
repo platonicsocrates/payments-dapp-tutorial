@@ -70,3 +70,4 @@ export const parseTokenAmount = (value: string, decimals: number) => {
   }
 
   // If decimals is 0, we have an empty string for fraction
+  if (fraction === "") {
