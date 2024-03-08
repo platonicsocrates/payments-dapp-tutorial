@@ -157,3 +157,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       }
       case 7: {
         // Submit the transaction to the network
+        const submit = async () => {
