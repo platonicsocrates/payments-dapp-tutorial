@@ -22,3 +22,4 @@ interface SubmitPaymentProps {
   memo: string;
   network: string;
   onClick: () => void;
+  signedXdr: string;
