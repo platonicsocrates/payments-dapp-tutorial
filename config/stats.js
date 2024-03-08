@@ -27,3 +27,4 @@ const DEFAULT_STATS = {
   excludeAssets: [/\.d\.ts/, /\.png/, /\.jpe?g/],
 
   // Set to true to show the hash of the build output
+  hash: true,
