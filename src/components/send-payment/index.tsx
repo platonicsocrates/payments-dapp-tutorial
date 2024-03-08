@@ -178,3 +178,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             setConnectionError(ERRORS.UNABLE_TO_SUBMIT_TX);
           }
         };
+        return (
