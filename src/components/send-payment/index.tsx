@@ -12,3 +12,4 @@ import {
 import {
   StellarWalletsKit,
   WalletNetwork,
+  WalletType,
