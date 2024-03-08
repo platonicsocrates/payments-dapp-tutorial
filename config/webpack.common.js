@@ -118,3 +118,4 @@ const commonConfig = (env) => ({
   plugins: [
     new ESLintPlugin({
       extensions: [".ts", ".tsx"],
+      failOnWarning: true,
