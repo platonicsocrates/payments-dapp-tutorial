@@ -17,3 +17,4 @@ export const PaymentDest = (props: PaymentDestProps) => {
     props.setDestination(event.target.value); // We update the payment destination address with the new value entered by the user.
   };
 
+  return (
