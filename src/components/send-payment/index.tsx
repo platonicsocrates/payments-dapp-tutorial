@@ -23,3 +23,4 @@ import {
   getEstimatedFee,
   getTxBuilder,
   BASE_FEE,
+  XLM_DECIMALS,
