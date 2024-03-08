@@ -285,3 +285,4 @@ export const getEstimatedFee = async (
   const raw = tx.build();
 
   const simResponse = await server.simulateTransaction(raw);
+
