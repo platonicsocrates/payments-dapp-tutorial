@@ -9,3 +9,4 @@ interface FeeProps {
   fee: string; // The fee for the payment
   memo: string; // The memo for the payment
   onClick: () => void; // Function to handle the "Next" button click
+  setFee: (fee: string) => void; // Function to set the fee value
