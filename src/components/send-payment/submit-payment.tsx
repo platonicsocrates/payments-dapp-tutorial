@@ -71,3 +71,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
         <p className="detail-header">Memo</p>
         <p className="detail-value">{props.memo}</p>
       </div>
+    </div>
