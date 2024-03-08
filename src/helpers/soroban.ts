@@ -35,3 +35,4 @@ export const SendTxStatus: {
   Error: "ERROR",
 };
 
+// Defining the number of decimal places for XLM
