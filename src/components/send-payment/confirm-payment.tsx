@@ -124,3 +124,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
           Sign with Freighter
         </Button>
       </div>
+    </>
