@@ -8,3 +8,4 @@ import {
   Icon,
   Loader,
   Profile,
+} from "@stellar/design-system";
