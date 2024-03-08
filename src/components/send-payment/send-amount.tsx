@@ -54,3 +54,4 @@ export const SendAmount = (props: SendAmountProps) => {
           onClick={props.onClick}
           disabled={props.amount.length < 1 || !canFulfillPayment}
         >
+          Next
