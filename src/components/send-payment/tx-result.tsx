@@ -22,3 +22,4 @@ export const TxResult = (props: TxResultProps) => (
     <Heading as="h1" size="sm" addlClassName="title">
       Transaction Result
     </Heading>
+    <div className="signed-xdr">
