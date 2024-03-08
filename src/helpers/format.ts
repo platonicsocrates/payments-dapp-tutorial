@@ -29,3 +29,4 @@ export const formatTokenAmount = (amount: BigNumber, decimals: number) => {
   let formatted = amount.toString();
 
   if (decimals > 0) {
+    formatted = amount.shiftedBy(-decimals).toFixed(decimals).toString();
