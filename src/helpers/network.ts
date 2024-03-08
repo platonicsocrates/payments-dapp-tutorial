@@ -15,3 +15,4 @@ export const FUTURENET_DETAILS = {
   networkPassphrase: "Test SDF Future Network ; October 2022", // The passphrase of the Futurenet network
 };
 
+// Function to sign a transaction
