@@ -169,3 +169,4 @@ export const getTokenSymbol = async (
 
   const result = await simulateTx<string>(tx, server);
   return result;
+};
