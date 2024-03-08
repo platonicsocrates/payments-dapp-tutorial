@@ -62,3 +62,4 @@ const commonConfig = (env) => ({
         ],
       },
       {
+        test: /\.(ts|tsx)$/,
