@@ -78,3 +78,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
       <p className="detail-header">Signed XDR</p>
       <Card variant="secondary">
         <div className="xdr-copy">
+          {/* Button to copy the signed XDR data */}
