@@ -31,3 +31,4 @@ const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
           options: {
             createOldCatalogs: false,
             locales: LOCALES,
+            output: "src/locales/$LOCALE/$NAMESPACE.json",
