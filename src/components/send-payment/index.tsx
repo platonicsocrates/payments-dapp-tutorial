@@ -62,3 +62,4 @@ export const SendPayment = (props: SendPaymentProps) => {
     null as string | null,
   );
 
+  // State variables for token/transaction details
