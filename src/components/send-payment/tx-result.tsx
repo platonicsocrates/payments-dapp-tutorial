@@ -12,3 +12,4 @@ import {
 import { copyContent } from "../../helpers/dom";
 
 interface TxResultProps {
+  resultXDR: string;
