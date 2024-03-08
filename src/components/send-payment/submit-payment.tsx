@@ -46,3 +46,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
       <div className="tx-detail-item">
         <p className="detail-header">To</p>
         <div className="dest-identicon">
+          {/* Displaying the recipient's profile picture */}
