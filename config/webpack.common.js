@@ -66,3 +66,4 @@ const commonConfig = (env) => ({
         use: ["ts-loader"],
         exclude: /node-modules/,
       },
+      {
