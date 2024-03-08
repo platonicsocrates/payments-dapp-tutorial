@@ -52,3 +52,4 @@ export const SendAmount = (props: SendAmountProps) => {
           variant="tertiary"
           isFullWidth
           onClick={props.onClick}
+          disabled={props.amount.length < 1 || !canFulfillPayment}
