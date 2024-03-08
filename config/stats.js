@@ -6,3 +6,4 @@ const DEFAULT_STATS = {
   all: false,
 
   // Set to true to show stats for individual modules
+  modules: true,
