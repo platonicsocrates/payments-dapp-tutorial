@@ -70,3 +70,4 @@ const commonConfig = (env) => ({
         test: /\.(js)$/,
         use: ["babel-loader"],
         include: /webextension-polyfill/,
+      },
