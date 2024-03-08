@@ -20,3 +20,4 @@ import { ERRORS } from "../../helpers/error";
 interface ConfirmPaymentProps {
   amount: string;
   destination: string;
+  fee: string;
