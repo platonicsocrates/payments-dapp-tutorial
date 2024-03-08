@@ -14,3 +14,4 @@ const { DEFAULT_STATS } = require("./stats");
 const BUILD_PATH = path.resolve(__dirname, "../build");
 
 // Common configuration for webpack
+const commonConfig = (env) => ({
