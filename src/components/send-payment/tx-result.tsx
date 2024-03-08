@@ -44,3 +44,4 @@ export const TxResult = (props: TxResultProps) => (
       </Button>
     </div>
   </>
+);
