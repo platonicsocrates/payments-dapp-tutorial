@@ -101,3 +101,4 @@ export const getTxBuilder = async (
   const source = await server.getAccount(pubKey);
   return new TransactionBuilder(source, {
     fee,
+    networkPassphrase,
