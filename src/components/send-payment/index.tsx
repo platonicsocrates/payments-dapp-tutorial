@@ -313,3 +313,4 @@ export const SendPayment = (props: SendPaymentProps) => {
                 }
               },
             });
+          } else {
