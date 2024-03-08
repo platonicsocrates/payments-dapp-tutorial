@@ -8,3 +8,4 @@ const DEFAULT_STATS = {
   // Set to true to show stats for individual modules
   modules: true,
 
+  // Set to true to show errors during build
