@@ -120,3 +120,4 @@ export const simulateTx = async <ArgType>(
   }
   throw new Error("cannot simulate transaction");
 };
+
