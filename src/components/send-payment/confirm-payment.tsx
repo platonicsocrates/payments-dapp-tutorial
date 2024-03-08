@@ -60,3 +60,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
       server,
     );
 
+    try {
