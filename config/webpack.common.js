@@ -91,3 +91,4 @@ const commonConfig = (env) => ({
         test: /\.(css|sass|scss)$/,
         use: [
           MiniCssExtractPlugin.loader,
+          {
