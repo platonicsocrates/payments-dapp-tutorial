@@ -74,3 +74,4 @@ export const parseTokenAmount = (value: string, decimals: number) => {
     fraction = "0";
   }
 
+  // Fully pad the string with zeros to get to value
