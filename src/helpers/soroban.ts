@@ -26,3 +26,4 @@ export const BASE_FEE = "100";
 export const baseFeeXlm = stroopToXlm(BASE_FEE).toString();
 
 // Mapping of send transaction status
+export const SendTxStatus: {
