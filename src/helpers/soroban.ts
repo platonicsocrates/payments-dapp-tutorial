@@ -55,3 +55,4 @@ export const numberToI128 = (value: number): xdr.ScVal =>
 export const parseTokenAmount = (value: string, decimals: number) => {
   const comps = value.split(".");
 
+  let whole = comps[0];
