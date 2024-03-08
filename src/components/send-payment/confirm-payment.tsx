@@ -118,3 +118,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
         <Button
           size="md"
           variant="tertiary"
+          isFullWidth
