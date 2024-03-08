@@ -21,3 +21,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
 
   return (
     <>
+      {/* This is the heading for the form */}
