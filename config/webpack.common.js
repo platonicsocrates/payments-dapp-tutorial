@@ -68,3 +68,4 @@ const commonConfig = (env) => ({
       },
       {
         test: /\.(js)$/,
+        use: ["babel-loader"],
