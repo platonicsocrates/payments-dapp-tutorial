@@ -38,3 +38,4 @@ import { TokenInput } from "./token-input";
 import { ConfirmPayment } from "./confirm-payment";
 import { Fee } from "./fee";
 import { SubmitPayment } from "./submit-payment";
+import { TxResult } from "./tx-result";
