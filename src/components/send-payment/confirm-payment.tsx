@@ -19,3 +19,4 @@ import { ERRORS } from "../../helpers/error";
 // Define the props that ConfirmPayment component receives
 interface ConfirmPaymentProps {
   amount: string;
+  destination: string;
