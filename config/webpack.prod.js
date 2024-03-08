@@ -20,3 +20,4 @@ const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
     new webpack.DefinePlugin({
       DEV_SERVER: false,
     }),
+
