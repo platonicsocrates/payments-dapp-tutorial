@@ -6,3 +6,4 @@ const { commonConfig } = require("./webpack.common.js");
 
 // Define the available locales
 const LOCALES = ["en", "pt"];
+
