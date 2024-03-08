@@ -10,3 +10,4 @@ interface PaymentDestProps {
   onClick: () => void; // A function to handle the "Next" button click
 }
 
+// This is the actual component function.
