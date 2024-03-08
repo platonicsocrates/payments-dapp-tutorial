@@ -271,3 +271,4 @@ export const getEstimatedFee = async (
         "transfer",
         ...[
           accountToScVal(pubKey), // from
+          accountToScVal(to), // to
