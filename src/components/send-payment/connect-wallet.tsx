@@ -40,3 +40,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
 
       {/* This is the submit button */}
       <div className="submit-row">
+        <Button
