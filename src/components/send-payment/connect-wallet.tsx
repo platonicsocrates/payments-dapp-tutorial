@@ -45,3 +45,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
           variant="tertiary"
           isFullWidth
           onClick={props.onClick}
+        >
