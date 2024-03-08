@@ -26,3 +26,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
         Send a Soroban Payment
       </Heading>
 
+      {/* This is a disabled select input to show the selected network */}
