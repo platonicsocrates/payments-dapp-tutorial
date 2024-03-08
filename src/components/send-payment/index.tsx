@@ -97,3 +97,4 @@ export const SendPayment = (props: SendPaymentProps) => {
     setLoadingTokenDetails(true);
     setTokenId(id);
 
+    // Get an instance of a Soroban RPC server for the selected network
