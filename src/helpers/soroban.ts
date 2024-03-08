@@ -164,3 +164,4 @@ export const getTokenSymbol = async (
   const contract = new Contract(tokenId);
   const tx = txBuilder
     .addOperation(contract.call("symbol"))
+    .setTimeout(TimeoutInfinite)
