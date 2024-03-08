@@ -112,3 +112,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
           <p className="detail-value">{props.memo}</p>
         </div>
       </div>
+
