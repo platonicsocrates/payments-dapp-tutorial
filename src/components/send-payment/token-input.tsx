@@ -44,3 +44,4 @@ export const TokenInput = (props: TokenInputProps) => {
         onChange={handleChange}
       />
 
+      {/* This is a div that contains a button. */}
