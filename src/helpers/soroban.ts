@@ -142,3 +142,4 @@ export const submitTx = async (
     while (
       txResponse.status === SorobanRpc.Api.GetTransactionStatus.NOT_FOUND
     ) {
+      txResponse = await server.getTransaction(sendResponse.hash);
