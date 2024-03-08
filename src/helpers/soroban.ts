@@ -247,3 +247,4 @@ export const makePayment = async (
 
   if (memo.length > 0) {
     tx.addMemo(Memo.text(memo));
+  }
