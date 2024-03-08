@@ -305,3 +305,4 @@ export const SendPayment = (props: SendPaymentProps) => {
                   SWKKit.setWallet(option.type);
                   const publicKey = await SWKKit.getPublicKey();
 
+                  SWKKit.setNetwork(WalletNetwork.FUTURENET);
