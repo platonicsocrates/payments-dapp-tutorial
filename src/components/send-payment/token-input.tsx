@@ -42,3 +42,4 @@ export const TokenInput = (props: TokenInputProps) => {
         label="Token ID"
         value={value}
         onChange={handleChange}
+      />
