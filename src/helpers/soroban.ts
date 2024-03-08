@@ -295,3 +295,4 @@ export const getEstimatedFee = async (
     simResponse.result !== undefined
   ) {
     throw new Error("transaction simulation failed");
+  }
