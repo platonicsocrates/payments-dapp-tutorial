@@ -11,3 +11,4 @@ interface SendAmountProps {
   balance: string; // The user's account balance
   onClick: () => void; // Function to handle the "Next" button click
   setAmount: (amount: string) => void; // Function to update the amount value
+  tokenSymbol: string; // The symbol of the token being sent
