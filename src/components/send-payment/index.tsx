@@ -355,3 +355,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             document.getElementById("root")!,
           )}
       </div>
+    </>
