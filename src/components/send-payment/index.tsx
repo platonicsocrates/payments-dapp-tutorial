@@ -129,3 +129,4 @@ export const SendPayment = (props: SendPaymentProps) => {
     setIsGettingFee(true);
     const server = getServer(selectedNetwork);
 
+    try {
