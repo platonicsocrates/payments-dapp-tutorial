@@ -90,3 +90,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
     </div>
 
     {/* Submit Payment button */}
+    <div className="submit-row-confirm">
