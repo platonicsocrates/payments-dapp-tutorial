@@ -166,3 +166,4 @@ export const SendPayment = (props: SendPaymentProps) => {
               signedXdr,
               selectedNetwork.networkPassphrase,
               server,
+            );
