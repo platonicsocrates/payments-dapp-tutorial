@@ -84,3 +84,4 @@ export const parseTokenAmount = (value: string, decimals: number) => {
 
   return wholeValue.shiftedBy(decimals).plus(fractionValue);
 };
+
