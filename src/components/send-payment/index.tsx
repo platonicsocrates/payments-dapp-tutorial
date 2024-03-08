@@ -147,3 +147,4 @@ export const SendPayment = (props: SendPaymentProps) => {
     }
   };
 
+  // Function to render the currently active step in the payment flow
