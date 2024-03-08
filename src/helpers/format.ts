@@ -10,3 +10,4 @@ export const stroopToXlm = (
 ): BigNumber => {
   if (stroops instanceof BigNumber) {
     return stroops.dividedBy(1e7);
+  }
