@@ -60,3 +60,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   const [stepCount, setStepCount] = React.useState(1 as StepCount);
   const [connectionError, setConnectionError] = React.useState(
     null as string | null,
+  );
