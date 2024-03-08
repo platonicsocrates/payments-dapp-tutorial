@@ -53,3 +53,4 @@ export const numberToI128 = (value: number): xdr.ScVal =>
 
 // Function to parse a token amount from a display value and number of decimals
 export const parseTokenAmount = (value: string, decimals: number) => {
+  const comps = value.split(".");
