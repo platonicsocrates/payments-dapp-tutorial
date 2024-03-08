@@ -35,3 +35,4 @@ const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
             sort: true,
             useKeysAsDefaultValue: true,
           },
+        }),
