@@ -90,3 +90,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   // Whenever the selected network changes, update the network on SWK
   React.useEffect(() => {
     SWKKit.setNetwork(selectedNetwork.networkPassphrase as WalletNetwork);
+  }, [selectedNetwork.networkPassphrase, SWKKit]);
