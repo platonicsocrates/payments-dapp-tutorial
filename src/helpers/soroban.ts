@@ -85,3 +85,4 @@ export const parseTokenAmount = (value: string, decimals: number) => {
   return wholeValue.shiftedBy(decimals).plus(fractionValue);
 };
 
+// Function to get a server configured for a specific network
