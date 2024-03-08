@@ -24,3 +24,4 @@ export const SendAmount = (props: SendAmountProps) => {
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     props.setAmount(event.target.value);
   };
+
