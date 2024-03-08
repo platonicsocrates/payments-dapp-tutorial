@@ -13,3 +13,4 @@ import {
 // Importing helper function to copy content
 import { copyContent } from "../../helpers/dom";
 
+// Defining the props interface for the SubmitPayment component
