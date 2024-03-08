@@ -8,3 +8,4 @@ import { Button, Heading, Select } from "@stellar/design-system";
 // It needs the selected network, public key, and a function to handle the click event.
 interface ConnectWalletProps {
   selectedNetwork: string;
+  pubKey: string | null;
