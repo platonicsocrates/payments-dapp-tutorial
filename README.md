@@ -1,4 +1,4 @@
-# Stellar Payments DApp Tutorial (WiP)
+# Stellar Payments DApp Tutorial - WiP (Work in Progress)
 
 This is an experimental tutorial for the Stellar Soroban dApp. We're experimenting with docuementation for the Soroban payments dApp, and how enhanced comments etc could improve the learner experience.
 
