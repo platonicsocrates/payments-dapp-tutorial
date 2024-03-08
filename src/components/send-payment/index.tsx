@@ -284,3 +284,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             setDestination={setPaymentDest}
             destination={paymentDestination}
           />
+        );
