@@ -347,3 +347,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             {renderStep(stepCount)}
           </Card>
         </div>
+        {connectionError !== null &&
