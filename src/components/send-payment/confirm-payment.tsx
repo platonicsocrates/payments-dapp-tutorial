@@ -99,3 +99,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
         <div className="tx-detail-item">
           <p className="detail-header">Amount</p>
           <p className="detail-value">
+            {/* Display the payment amount and token symbol */}
