@@ -261,3 +261,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         // Select the token for the payment
         if (isLoadingTokenDetails) {
           return (
+            <div className="loading">
