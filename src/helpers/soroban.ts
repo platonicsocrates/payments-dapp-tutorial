@@ -245,3 +245,4 @@ export const makePayment = async (
     )
     .setTimeout(TimeoutInfinite);
 
+  if (memo.length > 0) {
