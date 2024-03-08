@@ -41,3 +41,4 @@ export const SendAmount = (props: SendAmountProps) => {
         fieldSize="md"
         id="input-amount"
         label="Choose amount to send"
+        value={props.amount}
