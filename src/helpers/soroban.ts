@@ -109,3 +109,4 @@ export const getTxBuilder = async (
 export const simulateTx = async <ArgType>(
   tx: Transaction<Memo<MemoType>, Operation[]>,
   server: SorobanRpc.Server,
+): Promise<ArgType> => {
