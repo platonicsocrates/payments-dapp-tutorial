@@ -9,3 +9,4 @@ export interface NetworkDetails {
 }
 
 // Details specific to the Futurenet network
+export const FUTURENET_DETAILS = {
