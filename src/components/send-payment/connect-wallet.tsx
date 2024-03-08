@@ -9,3 +9,4 @@ import { Button, Heading, Select } from "@stellar/design-system";
 interface ConnectWalletProps {
   selectedNetwork: string;
   pubKey: string | null;
+  onClick: () => void;
