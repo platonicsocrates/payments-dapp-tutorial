@@ -26,3 +26,4 @@ const commonConfig = (env) => ({
   // Output configuration
   output: {
     path: BUILD_PATH,
+    filename: "[contenthash].js",
