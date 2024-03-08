@@ -94,3 +94,4 @@ export const SendPayment = (props: SendPaymentProps) => {
 
   // Function to fetch token details based on the provided token ID
   async function setToken(id: string) {
+    setLoadingTokenDetails(true);
