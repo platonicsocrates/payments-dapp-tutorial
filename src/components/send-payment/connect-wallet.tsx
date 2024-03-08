@@ -51,3 +51,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
         </Button>
       </div>
     </>
+  );
