@@ -99,3 +99,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
         {props.isSubmitting && <Loader />}
       </Button>
     </div>
+  </>
