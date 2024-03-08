@@ -203,3 +203,4 @@ export const getTokenDecimals = async (
   return result;
 };
 
+// Function to get the token balance
