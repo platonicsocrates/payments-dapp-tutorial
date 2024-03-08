@@ -72,3 +72,4 @@ const commonConfig = (env) => ({
         include: /webextension-polyfill/,
       },
       {
+        test: /\.png$/,
