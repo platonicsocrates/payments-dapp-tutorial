@@ -33,3 +33,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
         id="selected-network"
         label="Select your Network"
         value={props.selectedNetwork}
+      >
