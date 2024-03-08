@@ -13,3 +13,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
     backupFile="$backupDir/$(basename "$file")"
     cp "$file" "$backupFile"
     
+    # Clear the file content temporarily if necessary
