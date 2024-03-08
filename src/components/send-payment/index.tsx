@@ -222,3 +222,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         const onClick = () => setStepCount((stepCount + 1) as StepCount);
         return (
           <Fee
+            fee={fee}
