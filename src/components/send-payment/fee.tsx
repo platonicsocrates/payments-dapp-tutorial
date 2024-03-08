@@ -22,3 +22,4 @@ export const Fee = (props: FeeProps) => {
 
   // This function handles the change event for the memo input field.
   const handleMemoChange = (event: ChangeEvent<HTMLInputElement>) => {
+    props.setMemo(event.target.value); // Call the setMemo function with the new memo value
