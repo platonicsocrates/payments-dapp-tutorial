@@ -8,3 +8,4 @@ import { Button, Heading, Input } from "@stellar/design-system";
 interface TokenInputProps {
   onClick: (value: string) => void;
 }
+
