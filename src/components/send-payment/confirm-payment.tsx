@@ -24,3 +24,4 @@ interface ConfirmPaymentProps {
   pubKey: string;
   kit: StellarWalletsKit;
   memo: string;
+  network: string;
