@@ -47,3 +47,4 @@ type StepCount = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
 interface SendPaymentProps {
   hasHeader?: boolean; // Optional prop to determine if a header should be displayed
 }
+
