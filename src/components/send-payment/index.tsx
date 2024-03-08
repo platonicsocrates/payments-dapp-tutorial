@@ -53,3 +53,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   const hasHeader = props.hasHeader === undefined ? true : props.hasHeader;
 
   // Default to Futurenet network, only supported network for now
+  const [selectedNetwork] = React.useState(FUTURENET_DETAILS);
