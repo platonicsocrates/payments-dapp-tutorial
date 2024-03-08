@@ -100,3 +100,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
       </Button>
     </div>
   </>
+);
