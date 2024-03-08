@@ -30,3 +30,4 @@ export const SendAmount = (props: SendAmountProps) => {
       {/* Display the available balance */}
       <Heading as="h1" size="sm" addlClassName="title">
         Available Balance
+      </Heading>
