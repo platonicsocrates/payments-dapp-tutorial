@@ -344,3 +344,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             <Caption size="sm" addlClassName="step-count">
               step {stepCount} of 8
             </Caption>
+            {renderStep(stepCount)}
