@@ -35,3 +35,4 @@ export const SendAmount = (props: SendAmountProps) => {
         {formatTokenAmount(new BigNumber(props.balance), props.decimals)}{" "}
         {props.tokenSymbol}
       </Heading>
+
