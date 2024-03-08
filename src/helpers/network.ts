@@ -2,3 +2,4 @@
 import { StellarWalletsKit } from "stellar-wallets-kit";
 
 // Defining the NetworkDetails interface which describes the details of a network
+export interface NetworkDetails {
