@@ -119,3 +119,4 @@ export const simulateTx = async <ArgType>(
     return scValToNative(response.result.retval);
   }
   throw new Error("cannot simulate transaction");
+};
