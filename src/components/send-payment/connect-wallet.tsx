@@ -39,3 +39,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
       </Select>
 
       {/* This is the submit button */}
+      <div className="submit-row">
