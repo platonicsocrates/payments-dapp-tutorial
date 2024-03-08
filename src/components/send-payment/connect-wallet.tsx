@@ -19,3 +19,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
   // If the public key is available, we show "Next", otherwise "Connect Freighter".
   const text = props.pubKey ? "Next" : "Connect Freighter";
 
+  return (
