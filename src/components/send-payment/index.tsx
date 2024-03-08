@@ -146,3 +146,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       setIsGettingFee(false);
     }
   };
+
