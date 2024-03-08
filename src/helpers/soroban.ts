@@ -23,3 +23,4 @@ import { ERRORS } from "./error";
 
 // Defining the base fee for transactions
 export const BASE_FEE = "100";
+export const baseFeeXlm = stroopToXlm(BASE_FEE).toString();
