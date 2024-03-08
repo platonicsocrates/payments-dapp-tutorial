@@ -37,3 +37,4 @@ export const Fee = (props: FeeProps) => {
         label="Estimated Fee (XLM)"
         value={props.fee} // Display the current fee value
         onChange={handleFeeChange} // Call the handleFeeChange function when the fee input changes
+      />
