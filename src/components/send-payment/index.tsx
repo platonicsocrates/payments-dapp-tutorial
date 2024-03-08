@@ -168,3 +168,4 @@ export const SendPayment = (props: SendPaymentProps) => {
               server,
             );
 
+            settxResultXDR(result);
