@@ -87,3 +87,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
           <p className="detail-header">To</p>
           <div className="dest-identicon">
 
+
