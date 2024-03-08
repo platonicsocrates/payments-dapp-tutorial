@@ -320,3 +320,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         return (
           <ConnectWallet
             selectedNetwork={selectedNetwork.network}
+            pubKey={activePubKey}
