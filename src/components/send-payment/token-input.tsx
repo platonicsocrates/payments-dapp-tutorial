@@ -16,3 +16,4 @@ export const TokenInput = (props: TokenInputProps) => {
   const [value, setValue] = React.useState("");
 
   // This function is called whenever the value of the input field changes.
+  // It updates the 'value' state variable with the new value.
