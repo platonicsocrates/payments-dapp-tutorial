@@ -32,3 +32,4 @@ interface ConfirmPaymentProps {
   networkDetails: NetworkDetails;
   setError: (error: string) => void;
 }
+
