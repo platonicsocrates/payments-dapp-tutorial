@@ -256,3 +256,4 @@ export const makePayment = async (
 
 // Function to get the estimated fee for a transaction
 export const getEstimatedFee = async (
+  tokenId: string,
