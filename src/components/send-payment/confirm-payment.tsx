@@ -92,3 +92,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
 
 
 
+            {/* Display recipient's profile picture */}
