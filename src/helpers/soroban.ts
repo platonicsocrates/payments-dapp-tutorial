@@ -294,3 +294,4 @@ export const getEstimatedFee = async (
     SorobanRpc.Api.isSimulationSuccess(simResponse) &&
     simResponse.result !== undefined
   ) {
+    throw new Error("transaction simulation failed");
