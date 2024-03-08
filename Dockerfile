@@ -34,3 +34,4 @@ FROM nginx:1.17
 # Copying the built application from the 'build' stage to the Nginx web server directory
 COPY --from=build /app/build/ /usr/share/nginx/html/
 
+# Copying the custom Nginx configuration file from the 'build' stage to the Nginx configuration directory
