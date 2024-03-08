@@ -21,3 +21,4 @@ interface ConfirmPaymentProps {
   amount: string;
   destination: string;
   fee: string;
+  pubKey: string;
