@@ -221,3 +221,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         // Set the fee and memo for the payment
         const onClick = () => setStepCount((stepCount + 1) as StepCount);
         return (
+          <Fee
