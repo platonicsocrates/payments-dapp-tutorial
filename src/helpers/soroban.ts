@@ -226,3 +226,4 @@ export const makePayment = async (
   tokenId: string,
   amount: number,
   to: string,
+  pubKey: string,
