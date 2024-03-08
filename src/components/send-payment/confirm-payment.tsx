@@ -28,3 +28,4 @@ interface ConfirmPaymentProps {
   onTxSign: (xdr: string) => void;
   tokenId: string;
   tokenDecimals: number;
+  tokenSymbol: string;
