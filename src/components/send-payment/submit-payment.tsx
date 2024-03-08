@@ -84,3 +84,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
             icon={<Icon.ContentCopy key="copy-icon" />}
             onClick={() => copyContent(props.signedXdr)}
           />
+        </div>
