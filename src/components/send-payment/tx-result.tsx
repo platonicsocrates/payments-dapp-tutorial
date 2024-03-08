@@ -19,3 +19,4 @@ interface TxResultProps {
 export const TxResult = (props: TxResultProps) => (
   <>
     {/* This is the heading for the transaction result */}
+    <Heading as="h1" size="sm" addlClassName="title">
