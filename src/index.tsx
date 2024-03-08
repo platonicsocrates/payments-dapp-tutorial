@@ -7,3 +7,4 @@ import { SendPayment } from "./components/send-payment";
 
 // Importing the CSS styles from the "@stellar/design-system/build/styles.min.css" file
 import "@stellar/design-system/build/styles.min.css";
+
