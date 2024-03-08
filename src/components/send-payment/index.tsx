@@ -209,3 +209,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             network={selectedNetwork.network}
             destination={paymentDestination}
             amount={sendAmount}
+            fee={fee}
