@@ -23,3 +23,4 @@ export const PaymentDest = (props: PaymentDestProps) => {
         Choose a Payment Destination
       </Heading>
       <Input
+        fieldSize="md"
