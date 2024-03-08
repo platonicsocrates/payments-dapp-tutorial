@@ -161,3 +161,4 @@ export const SendPayment = (props: SendPaymentProps) => {
           setConnectionError(null);
           setIsSubmitting(true);
           try {
+            const server = getServer(selectedNetwork);
