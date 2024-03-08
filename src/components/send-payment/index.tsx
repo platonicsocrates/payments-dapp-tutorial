@@ -348,3 +348,4 @@ export const SendPayment = (props: SendPaymentProps) => {
           </Card>
         </div>
         {connectionError !== null &&
+          createPortal(
