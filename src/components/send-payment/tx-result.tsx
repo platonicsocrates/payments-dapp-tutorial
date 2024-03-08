@@ -40,3 +40,4 @@ export const TxResult = (props: TxResultProps) => (
     <div className="submit-row-send">
       {/* This is the "Start Over" button */}
       <Button size="md" variant="tertiary" isFullWidth onClick={props.onClick}>
+        Start Over
