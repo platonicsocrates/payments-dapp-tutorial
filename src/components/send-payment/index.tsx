@@ -69,3 +69,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   const [sendAmount, setSendAmount] = React.useState("");
   const [tokenSymbol, setTokenSymbol] = React.useState("");
   const [tokenBalance, setTokenBalance] = React.useState("");
+  const [fee, setFee] = React.useState(BASE_FEE);
