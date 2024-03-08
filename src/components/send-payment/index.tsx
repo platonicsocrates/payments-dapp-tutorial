@@ -119,3 +119,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       console.log(error);
       setConnectionError("Unable to fetch token details.");
       setLoadingTokenDetails(false);
+
