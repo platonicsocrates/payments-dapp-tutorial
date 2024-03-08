@@ -301,3 +301,4 @@ export const SendPayment = (props: SendPaymentProps) => {
                 WalletType.XBULL,
               ],
               onWalletSelected: async (option: ISupportedWallet) => {
+                try {
