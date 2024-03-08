@@ -6,3 +6,4 @@ import { Button, Heading, Input } from "@stellar/design-system";
 import { formatTokenAmount } from "../../helpers/format";
 
 interface SendAmountProps {
+  amount: string; // The amount the user wants to send
