@@ -298,3 +298,4 @@ export const SendPayment = (props: SendPaymentProps) => {
               allowedWallets: [
                 WalletType.ALBEDO,
                 WalletType.FREIGHTER,
+                WalletType.XBULL,
