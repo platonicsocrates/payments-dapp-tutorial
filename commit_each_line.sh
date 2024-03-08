@@ -14,3 +14,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
     # Clear the file content temporarily if necessary
     > "$file"
 
+    # Track whether any change has been made
