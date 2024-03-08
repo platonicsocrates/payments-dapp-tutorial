@@ -25,3 +25,4 @@ import {
   BASE_FEE,
   XLM_DECIMALS,
   getTokenSymbol,
+  getTokenDecimals,
