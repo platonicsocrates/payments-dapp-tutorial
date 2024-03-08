@@ -33,3 +33,4 @@ export const TokenInput = (props: TokenInputProps) => {
       {/* This is a heading that says "Choose Token To Send". */}
       <Heading as="h1" size="sm">
         Choose Token To Send
+      </Heading>
