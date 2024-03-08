@@ -27,3 +27,4 @@ interface SubmitPaymentProps {
 }
 
 // Defining the SubmitPayment component
+export const SubmitPayment = (props: SubmitPaymentProps) => (
