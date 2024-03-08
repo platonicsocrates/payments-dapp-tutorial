@@ -108,3 +108,4 @@ const commonConfig = (env) => ({
             options: {
               name: "[name].[ext]",
               outputPath: "fonts/",
+            },
