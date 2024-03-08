@@ -12,3 +12,4 @@ export interface NetworkDetails {
 export const FUTURENET_DETAILS = {
   network: "FUTURENET", // The name of the Futurenet network
   networkUrl: "https://horizon-futurenet.stellar.org", // The URL of the Futurenet network
+  networkPassphrase: "Test SDF Future Network ; October 2022", // The passphrase of the Futurenet network
