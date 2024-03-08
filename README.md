@@ -24,7 +24,7 @@ Here's a brief overview of the main files and directories in this project:
 
 - `src/`: This directory contains the source code of the application.
 
-- `tsconfig.json`: This file contains the configuration for the TypeScript compiler.
+- `tsconfig.json`: This file contains the configuration for the TypeScript compiler...
 
 ## Getting Started
 
