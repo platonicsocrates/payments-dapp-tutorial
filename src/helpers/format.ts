@@ -41,3 +41,4 @@ export const formatTokenAmount = (amount: BigNumber, decimals: number) => {
     }
   }
 
+  return formatted;
