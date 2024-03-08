@@ -65,3 +65,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
         <p className="detail-header">Fee</p>
         <p className="detail-value">{props.fee} XLM</p>
       </div>
+
