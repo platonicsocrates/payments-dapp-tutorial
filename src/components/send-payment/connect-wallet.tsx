@@ -10,3 +10,4 @@ interface ConnectWalletProps {
   selectedNetwork: string;
   pubKey: string | null;
   onClick: () => void;
+}
