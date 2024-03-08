@@ -83,3 +83,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   const [SWKKit] = React.useState(
     new StellarWalletsKit({
       network: selectedNetwork.networkPassphrase as WalletNetwork,
+      selectedWallet: WalletType.FREIGHTER,
