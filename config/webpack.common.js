@@ -16,3 +16,4 @@ const BUILD_PATH = path.resolve(__dirname, "../build");
 // Common configuration for webpack
 const commonConfig = (env) => ({
   // Entry point for the application
+  entry: {
