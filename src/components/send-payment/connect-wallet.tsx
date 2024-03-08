@@ -17,3 +17,4 @@ interface ConnectWalletProps {
 export const ConnectWallet = (props: ConnectWalletProps) => {
   // Let's determine the text to be displayed on the button.
   // If the public key is available, we show "Next", otherwise "Connect Freighter".
+  const text = props.pubKey ? "Next" : "Connect Freighter";
