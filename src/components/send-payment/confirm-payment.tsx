@@ -2,3 +2,4 @@
 // It receives various props including the amount, destination, fee, public key, and other necessary details.
 // The ConfirmPayment component displays the transaction details such as network, recipient, amount, fee, and memo.
 // It also provides a button to sign the transaction using a service called Freighter.
+
