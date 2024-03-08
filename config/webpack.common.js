@@ -31,3 +31,4 @@ const commonConfig = (env) => ({
   // Resolving file extensions and paths
   resolve: {
     extensions: [".ts", ".tsx", ".js"],
+    plugins: [
