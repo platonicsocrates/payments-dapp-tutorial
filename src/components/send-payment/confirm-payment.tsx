@@ -71,3 +71,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
   };
 
   return (
+    <>
