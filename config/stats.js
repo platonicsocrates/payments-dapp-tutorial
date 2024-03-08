@@ -23,3 +23,4 @@ const DEFAULT_STATS = {
   // Set to true to show information about assets generated during build
   assets: true,
 
+  // Set to an array of regular expressions to exclude specific assets from being displayed
