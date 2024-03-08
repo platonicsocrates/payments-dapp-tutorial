@@ -208,3 +208,4 @@ export const getTokenBalance = async (
   address: string,
   tokenId: string,
   txBuilder: TransactionBuilder,
+  server: SorobanRpc.Server,
