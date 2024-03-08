@@ -47,3 +47,4 @@ export const SendAmount = (props: SendAmountProps) => {
 
       {/* "Next" button to proceed with the payment */}
       <div className="submit-row-send">
+        <Button
