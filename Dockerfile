@@ -29,3 +29,4 @@ RUN yarn install
 RUN yarn build
 
 # We start with another base image of Nginx 1.17
+FROM nginx:1.17
