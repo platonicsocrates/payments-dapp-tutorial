@@ -49,3 +49,4 @@ const commonConfig = (env) => ({
       },
       {
         test: /\.m?js/,
+        resolve: {
