@@ -7,3 +7,4 @@ import {
   IconButton,
   Icon,
   Loader,
+  Profile,
