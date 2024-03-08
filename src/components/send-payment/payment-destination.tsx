@@ -33,3 +33,4 @@ export const PaymentDest = (props: PaymentDestProps) => {
         <Button
           size="md"
           variant="tertiary"
+          isFullWidth
