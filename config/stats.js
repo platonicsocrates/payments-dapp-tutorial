@@ -30,3 +30,4 @@ const DEFAULT_STATS = {
   hash: true,
 
   // Set to true to show timing information for each build step
+  timings: true,
