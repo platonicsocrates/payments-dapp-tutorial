@@ -80,3 +80,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   const [isGettingFee, setIsGettingFee] = React.useState(false);
 
   // Setup Stellar Wallets Kit (SWK) with the selected network and wallet type
+  const [SWKKit] = React.useState(
