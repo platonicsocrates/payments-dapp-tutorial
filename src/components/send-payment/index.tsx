@@ -76,3 +76,4 @@ export const SendPayment = (props: SendPaymentProps) => {
 
   // Loading states
   const [isLoadingTokenDetails, setLoadingTokenDetails] = React.useState(false);
+  const [isSubmitting, setIsSubmitting] = React.useState(false);
