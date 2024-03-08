@@ -15,3 +15,4 @@ const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
     runtimeChunk: "single",
   },
 
+  plugins: [
