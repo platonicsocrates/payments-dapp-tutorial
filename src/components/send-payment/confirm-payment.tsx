@@ -38,3 +38,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
   // Function to sign the transaction using Freighter
   const signWithFreighter = async () => {
     // Convert the amount to the appropriate format based on the token decimals
+    const amount = parseTokenAmount(props.amount, props.tokenDecimals);
