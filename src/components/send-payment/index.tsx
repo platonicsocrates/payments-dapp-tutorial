@@ -160,3 +160,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         const submit = async () => {
           setConnectionError(null);
           setIsSubmitting(true);
+          try {
