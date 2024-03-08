@@ -44,3 +44,4 @@ const commonConfig = (env) => ({
   module: {
     rules: [
       {
+        test: /\.m?js/,
