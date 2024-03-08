@@ -30,3 +30,4 @@ export const Fee = (props: FeeProps) => {
     <>
       <Heading as="h1" size="sm">
         Payment Settings
+      </Heading>
