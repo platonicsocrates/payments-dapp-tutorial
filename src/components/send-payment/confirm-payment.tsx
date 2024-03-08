@@ -61,3 +61,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
     );
 
     try {
+      // Sign the XDR representing the "transfer" transaction using the provided public key and StellarWalletsKit
