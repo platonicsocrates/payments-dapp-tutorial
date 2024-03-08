@@ -212,3 +212,4 @@ export const getTokenBalance = async (
 ) => {
   const params = [accountToScVal(address)];
   const contract = new Contract(tokenId);
+  const tx = txBuilder
