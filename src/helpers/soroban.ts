@@ -33,3 +33,4 @@ export const SendTxStatus: {
   Duplicate: "DUPLICATE",
   Retry: "TRY_AGAIN_LATER",
   Error: "ERROR",
+};
