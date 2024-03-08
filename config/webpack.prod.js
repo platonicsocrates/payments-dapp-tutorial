@@ -37,3 +37,4 @@ const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
           },
         }),
       ]
+      : []),
