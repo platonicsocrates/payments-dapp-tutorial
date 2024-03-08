@@ -34,3 +34,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
         label="Select your Network"
         value={props.selectedNetwork}
       >
+        {/* We display the selected network as an option */}
