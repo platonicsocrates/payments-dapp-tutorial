@@ -33,3 +33,4 @@ export const TxResult = (props: TxResultProps) => (
             icon={<Icon.ContentCopy key="copy-icon" />}
             onClick={() => copyContent(props.resultXDR)}
           />
+        </div>
