@@ -144,3 +144,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       // Defaults to hardcoded base fee if this fails
       console.log(error);
       setIsGettingFee(false);
+    }
