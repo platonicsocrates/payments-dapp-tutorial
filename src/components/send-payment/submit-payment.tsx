@@ -34,3 +34,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
       Submit Payment
     </Heading>
 
+    {/* Transaction details */}
