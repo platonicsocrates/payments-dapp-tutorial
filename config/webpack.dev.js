@@ -20,3 +20,4 @@ const devConfig = {
       DEV_SERVER: true,
     })
   ],
+};
