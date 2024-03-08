@@ -33,3 +33,4 @@ const commonConfig = (env) => ({
     extensions: [".ts", ".tsx", ".js"],
     plugins: [
       new TsconfigPathsPlugin({
+        configFile: path.resolve(__dirname, "../tsconfig.json"),
