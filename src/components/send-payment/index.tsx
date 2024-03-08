@@ -32,3 +32,4 @@ import {
 } from "../../helpers/soroban";
 
 import { SendAmount } from "./send-amount";
+import { ConnectWallet } from "./connect-wallet";
