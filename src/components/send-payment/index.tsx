@@ -259,3 +259,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       }
       case 3: {
         // Select the token for the payment
+        if (isLoadingTokenDetails) {
