@@ -19,3 +19,4 @@ RUN apt-get update && apt-get install --no-install-recommends -y gpg curl git ma
     echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list && \
     apt-get update && apt-get install -y nodejs yarn && apt-get clean
 
+# Copying the entire current directory into the container's 'app' directory
