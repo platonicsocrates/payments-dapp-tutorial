@@ -35,3 +35,4 @@ interface ConfirmPaymentProps {
 
 // Define the ConfirmPayment component
 export const ConfirmPayment = (props: ConfirmPaymentProps) => {
+  // Function to sign the transaction using Freighter
