@@ -59,3 +59,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   const [activePubKey, setActivePubKey] = React.useState(null as string | null);
   const [stepCount, setStepCount] = React.useState(1 as StepCount);
   const [connectionError, setConnectionError] = React.useState(
+    null as string | null,
