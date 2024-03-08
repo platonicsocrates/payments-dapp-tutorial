@@ -223,3 +223,4 @@ export const getTokenBalance = async (
 
 // Function to build a "transfer" operation and prepare the corresponding XDR
 export const makePayment = async (
+  tokenId: string,
