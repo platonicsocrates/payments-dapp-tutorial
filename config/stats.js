@@ -12,3 +12,4 @@ const DEFAULT_STATS = {
   errors: true,
 
   // Set to true to show warnings during build
+  warnings: true,
