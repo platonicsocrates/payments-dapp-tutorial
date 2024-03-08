@@ -141,3 +141,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       setFee(stroopToXlm(estimatedFee).toString());
       setIsGettingFee(false);
     } catch (error) {
+      // Defaults to hardcoded base fee if this fails
