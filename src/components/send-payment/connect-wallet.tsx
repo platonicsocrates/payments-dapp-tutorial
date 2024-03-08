@@ -38,3 +38,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
         <option>{props.selectedNetwork}</option>
       </Select>
 
+      {/* This is the submit button */}
