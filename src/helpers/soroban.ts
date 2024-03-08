@@ -172,3 +172,4 @@ export const getTokenSymbol = async (
 };
 
 // Function to get the token name
+export const getTokenName = async (
