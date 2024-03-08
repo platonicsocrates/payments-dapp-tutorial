@@ -8,3 +8,4 @@ LABEL maintainer="SDF Ops Team <ops@stellar.org>"
 RUN mkdir -p /app
 WORKDIR /app
 
+# Setting the environment variable to avoid interactive prompts during package installation
