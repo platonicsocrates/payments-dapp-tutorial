@@ -29,3 +29,4 @@ export const TxResult = (props: TxResultProps) => (
         <div className="xdr-copy">
           {/* This is the button to copy the result XDR */}
           <IconButton
+            altText="copy result xdr data"
