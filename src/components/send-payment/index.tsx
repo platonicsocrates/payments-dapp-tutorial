@@ -337,3 +337,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         {activePubKey !== null && (
           <Profile isShort publicAddress={activePubKey} size="sm" />
         )}
+      </div>
