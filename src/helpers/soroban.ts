@@ -197,3 +197,4 @@ export const getTokenDecimals = async (
   const tx = txBuilder
     .addOperation(contract.call("decimals"))
     .setTimeout(TimeoutInfinite)
+    .build();
