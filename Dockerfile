@@ -28,3 +28,4 @@ RUN yarn install
 # Building the application
 RUN yarn build
 
+# We start with another base image of Nginx 1.17
