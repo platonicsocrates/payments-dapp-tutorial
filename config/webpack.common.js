@@ -40,3 +40,4 @@ const commonConfig = (env) => ({
       buffer: require.resolve("buffer/"),
     },
   },
+  // Module rules for different file types
