@@ -10,3 +10,4 @@ import {
   SorobanRpc,
   TimeoutInfinite,
   Transaction,
+  TransactionBuilder,
