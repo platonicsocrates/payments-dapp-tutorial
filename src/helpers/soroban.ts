@@ -217,3 +217,4 @@ export const getTokenBalance = async (
     .setTimeout(TimeoutInfinite)
     .build();
 
+  const result = await simulateTx<string>(tx, server);
