@@ -21,3 +21,4 @@ RUN apt-get update && apt-get install --no-install-recommends -y gpg curl git ma
 
 # Copying the entire current directory into the container's 'app' directory
 COPY . /app/
+
