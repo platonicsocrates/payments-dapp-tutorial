@@ -289,3 +289,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       case 1:
       default: {
         // Connect the wallet
+        const onClick = async () => {
