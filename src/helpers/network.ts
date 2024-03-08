@@ -27,3 +27,4 @@ export const signTx = async (
     publicKey,
   });
   // Returning the signed XDR
+  return signedXDR;
