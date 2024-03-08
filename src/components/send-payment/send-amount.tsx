@@ -32,3 +32,4 @@ export const SendAmount = (props: SendAmountProps) => {
         Available Balance
       </Heading>
       <Heading size="sm" as="h2" addlClassName="balance">
+        {formatTokenAmount(new BigNumber(props.balance), props.decimals)}{" "}
