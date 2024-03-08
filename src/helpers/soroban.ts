@@ -198,3 +198,4 @@ export const getTokenDecimals = async (
     .addOperation(contract.call("decimals"))
     .setTimeout(TimeoutInfinite)
     .build();
+
