@@ -128,3 +128,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   const getFee = async () => {
     setIsGettingFee(true);
     const server = getServer(selectedNetwork);
+
