@@ -38,3 +38,4 @@ export const TxResult = (props: TxResultProps) => (
       </Card>
     </div>
     <div className="submit-row-send">
+      {/* This is the "Start Over" button */}
