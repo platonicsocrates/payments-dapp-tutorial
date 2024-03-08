@@ -22,3 +22,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
 
         echo "Committing line: $line"
         git add "$file"
+        git commit -m "initial commits"
