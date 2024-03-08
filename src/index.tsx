@@ -9,3 +9,4 @@ import { SendPayment } from "./components/send-payment";
 import "@stellar/design-system/build/styles.min.css";
 
 // Importing custom styles from the "./index.scss" file
+import "./index.scss";
