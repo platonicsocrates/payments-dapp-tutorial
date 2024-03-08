@@ -46,3 +46,4 @@ export const RPC_URLS: { [key: string]: string } = {
 // Function to convert an account address to a smart contract value
 export const accountToScVal = (account: string) =>
   new Address(account).toScVal();
+
