@@ -64,3 +64,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
       // Sign the XDR representing the "transfer" transaction using the provided public key and StellarWalletsKit
       const signedTx = await signTx(xdr, props.pubKey, props.kit);
       props.onTxSign(signedTx);
+    } catch (error) {
