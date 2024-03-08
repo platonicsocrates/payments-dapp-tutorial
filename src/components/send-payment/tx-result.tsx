@@ -34,3 +34,4 @@ export const TxResult = (props: TxResultProps) => (
             onClick={() => copyContent(props.resultXDR)}
           />
         </div>
+        <div className="xdr-data">{props.resultXDR}</div>
