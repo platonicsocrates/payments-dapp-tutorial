@@ -302,3 +302,4 @@ export const getEstimatedFee = async (
   // of total classic fees for the soroban transaction will be equal to incoming tx.fee + minResourceFee.
   const classicFeeNum = parseInt(raw.fee, 10) || 0;
   const minResourceFeeNum = parseInt(simResponse.minResourceFee, 10) || 0;
+  const fee = (classicFeeNum + minResourceFeeNum).toString();
