@@ -34,3 +34,4 @@ export const Fee = (props: FeeProps) => {
       <Input
         fieldSize="md"
         id="input-fee"
+        label="Estimated Fee (XLM)"
