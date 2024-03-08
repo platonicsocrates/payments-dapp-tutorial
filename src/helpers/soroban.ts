@@ -139,3 +139,4 @@ export const submitTx = async (
     let txResponse = await server.getTransaction(sendResponse.hash);
 
     // Poll this until the status is not "NOT_FOUND"
+    while (
