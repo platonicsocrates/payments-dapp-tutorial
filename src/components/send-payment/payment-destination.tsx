@@ -12,3 +12,4 @@ interface PaymentDestProps {
 
 // This is the actual component function.
 export const PaymentDest = (props: PaymentDestProps) => {
+  // This function is triggered whenever the user types in the input field.
