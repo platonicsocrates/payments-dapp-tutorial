@@ -140,3 +140,4 @@ const commonConfig = (env) => ({
     new webpack.ProvidePlugin({
       Buffer: ["buffer", "Buffer"],
     }),
+  ],
