@@ -132,3 +132,4 @@ export const SendPayment = (props: SendPaymentProps) => {
     try {
       const estimatedFee = await getEstimatedFee(
         tokenId,
+        new BigNumber(sendAmount).toNumber(),
