@@ -86,3 +86,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       selectedWallet: WalletType.FREIGHTER,
     }),
   );
+
