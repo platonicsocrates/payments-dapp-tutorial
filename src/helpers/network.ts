@@ -25,3 +25,4 @@ export const signTx = async (
   const { signedXDR } = await kit.sign({
     xdr,
     publicKey,
+  });
