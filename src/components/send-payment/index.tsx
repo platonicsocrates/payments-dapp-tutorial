@@ -323,3 +323,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             pubKey={activePubKey}
             onClick={onClick}
           />
+        );
