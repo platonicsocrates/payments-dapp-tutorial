@@ -114,3 +114,4 @@ export const simulateTx = async <ArgType>(
 
   if (
     SorobanRpc.Api.isSimulationSuccess(response) &&
+    response.result !== undefined
