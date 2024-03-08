@@ -95,3 +95,4 @@ export const getServer = (networkDetails: NetworkDetails) =>
 export const getTxBuilder = async (
   pubKey: string,
   fee: string,
+  server: SorobanRpc.Server,
