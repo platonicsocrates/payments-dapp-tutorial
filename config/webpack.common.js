@@ -54,3 +54,4 @@ const commonConfig = (env) => ({
         },
       },
       {
+        test: /\.html$/,
