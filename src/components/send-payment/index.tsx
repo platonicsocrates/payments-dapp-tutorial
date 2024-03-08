@@ -84,3 +84,4 @@ export const SendPayment = (props: SendPaymentProps) => {
     new StellarWalletsKit({
       network: selectedNetwork.networkPassphrase as WalletNetwork,
       selectedWallet: WalletType.FREIGHTER,
+    }),
