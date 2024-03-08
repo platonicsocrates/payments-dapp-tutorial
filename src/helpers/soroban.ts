@@ -134,3 +134,4 @@ export const submitTx = async (
   if (sendResponse.errorResult) {
     throw new Error(ERRORS.UNABLE_TO_SUBMIT_TX);
   }
+
