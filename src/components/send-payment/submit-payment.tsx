@@ -51,3 +51,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
         </div>
       </div>
 
+      {/* Amount */}
