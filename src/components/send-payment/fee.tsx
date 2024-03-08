@@ -45,3 +45,4 @@ export const Fee = (props: FeeProps) => {
         value={props.memo} // Display the current memo value
         onChange={handleMemoChange} // Call the handleMemoChange function when the memo input changes
       />
+      <div className="submit-row-fee">
