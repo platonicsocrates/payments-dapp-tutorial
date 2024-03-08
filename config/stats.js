@@ -19,3 +19,4 @@ const DEFAULT_STATS = {
 
   // Set to true to show detailed error information
   errorDetails: true,
+
