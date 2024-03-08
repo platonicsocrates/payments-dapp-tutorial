@@ -14,3 +14,4 @@ const DEFAULT_STATS = {
   // Set to true to show warnings during build
   warnings: true,
 
+  // Set to true to show the module trace for errors and warnings
