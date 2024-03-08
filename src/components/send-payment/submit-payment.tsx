@@ -73,3 +73,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
       </div>
     </div>
 
+    {/* Signed XDR */}
