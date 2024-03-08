@@ -191,3 +191,4 @@ export const getTokenName = async (
 export const getTokenDecimals = async (
   tokenId: string,
   txBuilder: TransactionBuilder,
+  server: SorobanRpc.Server,
