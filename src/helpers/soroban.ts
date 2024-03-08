@@ -227,3 +227,4 @@ export const makePayment = async (
   amount: number,
   to: string,
   pubKey: string,
+  memo: string,
