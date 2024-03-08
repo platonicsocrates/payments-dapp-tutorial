@@ -16,3 +16,4 @@ import {
 } from "../../helpers/soroban";
 import { ERRORS } from "../../helpers/error";
 
+// Define the props that ConfirmPayment component receives
