@@ -97,3 +97,4 @@ const commonConfig = (env) => ({
               sourceMap: true,
             },
           },
+          { loader: "sass-loader" },
