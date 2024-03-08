@@ -5,3 +5,4 @@ import React, { ChangeEvent } from "react";
 import { Button, Heading, Input } from "@stellar/design-system";
 
 // These are the props that the component expects.
+interface FeeProps {
