@@ -42,3 +42,4 @@ export const TxResult = (props: TxResultProps) => (
       <Button size="md" variant="tertiary" isFullWidth onClick={props.onClick}>
         Start Over
       </Button>
+    </div>
