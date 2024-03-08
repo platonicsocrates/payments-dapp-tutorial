@@ -29,3 +29,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
       {/* This is a disabled select input to show the selected network */}
       <Select
         disabled
+        fieldSize="md"
