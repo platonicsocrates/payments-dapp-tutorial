@@ -48,3 +48,4 @@ export const accountToScVal = (account: string) =>
   new Address(account).toScVal();
 
 // Function to convert a number to a smart contract value
+export const numberToI128 = (value: number): xdr.ScVal =>
