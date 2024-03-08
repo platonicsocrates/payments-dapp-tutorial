@@ -53,3 +53,4 @@ const commonConfig = (env) => ({
           fullySpecified: false,
         },
       },
+      {
