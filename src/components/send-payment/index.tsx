@@ -300,3 +300,4 @@ export const SendPayment = (props: SendPaymentProps) => {
                 WalletType.FREIGHTER,
                 WalletType.XBULL,
               ],
+              onWalletSelected: async (option: ISupportedWallet) => {
