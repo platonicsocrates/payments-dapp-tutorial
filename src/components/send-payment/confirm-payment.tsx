@@ -41,3 +41,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
     const amount = parseTokenAmount(props.amount, props.tokenDecimals);
 
     // Get an instance of a Soroban RPC set to the selected network
+    const server = getServer(props.networkDetails);
