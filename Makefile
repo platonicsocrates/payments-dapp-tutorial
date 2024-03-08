@@ -6,3 +6,4 @@ LABEL ?= $(shell git rev-parse --short HEAD)$(and $(shell git status -s),-dirty-
 # If TAG is not provided set default value
 TAG ?= stellar/soroban-react-payment:$(LABEL)
 
+# Build date for the Docker image
