@@ -47,3 +47,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
           onClick={props.onClick}
         >
           {/* The button text is determined by the "text" variable */}
+          {text}
