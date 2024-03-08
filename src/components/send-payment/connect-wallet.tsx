@@ -46,3 +46,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
           isFullWidth
           onClick={props.onClick}
         >
+          {/* The button text is determined by the "text" variable */}
