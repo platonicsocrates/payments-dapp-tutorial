@@ -96,3 +96,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   async function setToken(id: string) {
     setLoadingTokenDetails(true);
     setTokenId(id);
+
