@@ -153,3 +153,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       case 8: {
         // Display the transaction result
         const onClick = () => setStepCount(1);
+        return <TxResult onClick={onClick} resultXDR={txResultXDR} />;
