@@ -286,3 +286,4 @@ export const getEstimatedFee = async (
 
   const simResponse = await server.simulateTransaction(raw);
 
+  if (SorobanRpc.Api.isSimulationError(simResponse)) {
