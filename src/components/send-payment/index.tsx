@@ -7,3 +7,4 @@ import {
   Layout,
   Notification,
   Profile,
+  Loader,
