@@ -216,3 +216,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             setError={setConnectionError}
           />
         );
+      }
