@@ -18,3 +18,4 @@ import {
 
 import { stroopToXlm } from "../../helpers/format";
 import { FUTURENET_DETAILS } from "../../helpers/network";
+import { ERRORS } from "../../helpers/error";
