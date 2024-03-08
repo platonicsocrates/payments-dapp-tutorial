@@ -45,3 +45,4 @@ export const SendAmount = (props: SendAmountProps) => {
         onChange={handleChange}
       />
 
+      {/* "Next" button to proceed with the payment */}
