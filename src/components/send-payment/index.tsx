@@ -191,3 +191,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             onClick={submit}
           />
         );
+      }
