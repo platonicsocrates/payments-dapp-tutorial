@@ -177,3 +177,4 @@ export const getTokenName = async (
   txBuilder: TransactionBuilder,
   server: SorobanRpc.Server,
 ) => {
+  const contract = new Contract(tokenId);
