@@ -250,3 +250,4 @@ export const makePayment = async (
   }
 
   const preparedTransaction = await server.prepareTransaction(tx.build());
+
