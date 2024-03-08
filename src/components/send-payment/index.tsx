@@ -211,3 +211,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             amount={sendAmount}
             fee={fee}
             memo={memo}
+            networkDetails={selectedNetwork}
