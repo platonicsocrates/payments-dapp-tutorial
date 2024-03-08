@@ -5,3 +5,4 @@ import React from "react";
 import { Button, Heading, Select } from "@stellar/design-system";
 
 // Here we define the props that this component expects.
+// It needs the selected network, public key, and a function to handle the click event.
