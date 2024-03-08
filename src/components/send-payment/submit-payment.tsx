@@ -25,3 +25,4 @@ interface SubmitPaymentProps {
   signedXdr: string;
   tokenSymbol: string;
 }
+
