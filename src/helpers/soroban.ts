@@ -296,3 +296,4 @@ export const getEstimatedFee = async (
   ) {
     throw new Error("transaction simulation failed");
   }
+
