@@ -203,3 +203,4 @@ export const SendPayment = (props: SendPaymentProps) => {
           <ConfirmPayment
             tokenId={tokenId}
             tokenDecimals={tokenDecimals}
+            pubKey={activePubKey!}
