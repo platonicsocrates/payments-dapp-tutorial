@@ -82,3 +82,4 @@ const commonConfig = (env) => ({
       {
         test: /\.svg$/,
         use: [
+          {
