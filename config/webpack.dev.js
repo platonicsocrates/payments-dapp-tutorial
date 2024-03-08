@@ -23,3 +23,4 @@ const devConfig = {
 };
 
 // Finally, we export a function that merges the development configuration
+// with the common configuration based on the environment.
