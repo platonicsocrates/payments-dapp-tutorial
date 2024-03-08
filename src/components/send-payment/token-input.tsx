@@ -10,3 +10,4 @@ interface TokenInputProps {
 }
 
 // Now, let's define the TokenInput component.
+export const TokenInput = (props: TokenInputProps) => {
