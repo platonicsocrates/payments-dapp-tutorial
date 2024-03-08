@@ -9,3 +9,4 @@ TAG ?= stellar/soroban-react-payment:$(LABEL)
 # Build date for the Docker image
 BUILD_DATE := $(shell date -u +%FT%TZ)
 
+# Command to build the Docker image
