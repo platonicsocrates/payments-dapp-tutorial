@@ -28,3 +28,4 @@ export const signTx = async (
   });
   // Returning the signed XDR
   return signedXDR;
+};
