@@ -28,3 +28,4 @@ const DEFAULT_STATS = {
 
   // Set to true to show the hash of the build output
   hash: true,
+
