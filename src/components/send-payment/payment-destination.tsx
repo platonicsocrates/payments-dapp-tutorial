@@ -35,3 +35,4 @@ export const PaymentDest = (props: PaymentDestProps) => {
           variant="tertiary"
           isFullWidth
           onClick={props.onClick} // We bind the onClick function to the "Next" button's onClick event
+          disabled={props.destination.length < 1} // We disable the button if the payment destination address is empty
