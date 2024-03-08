@@ -145,3 +145,4 @@ export const submitTx = async (
       txResponse = await server.getTransaction(sendResponse.hash);
       await new Promise((resolve) => setTimeout(resolve, 1000));
     }
+
