@@ -151,3 +151,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   function renderStep(step: StepCount) {
     switch (step) {
       case 8: {
+        // Display the transaction result
