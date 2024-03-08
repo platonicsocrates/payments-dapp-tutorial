@@ -42,3 +42,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
         <p className="detail-value">{props.network}</p>
       </div>
 
+      {/* Recipient */}
