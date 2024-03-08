@@ -253,3 +253,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             setAmount={setSendAmount}
             onClick={onClick}
             balance={tokenBalance}
+            tokenSymbol={tokenSymbol}
