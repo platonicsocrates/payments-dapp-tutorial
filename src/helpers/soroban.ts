@@ -121,3 +121,4 @@ export const simulateTx = async <ArgType>(
   throw new Error("cannot simulate transaction");
 };
 
+// Function to build and submit a transaction to the Soroban RPC
