@@ -92,3 +92,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
     {/* Submit Payment button */}
     <div className="submit-row-confirm">
       <Button size="md" variant="tertiary" isFullWidth onClick={props.onClick}>
+        {/* Button text */}
