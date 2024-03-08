@@ -18,3 +18,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
 
     # Read the backup file line by line
     while IFS= read -r line; do
+        echo "$line" >> "$file" # Append the current line for a cumulative build-up
