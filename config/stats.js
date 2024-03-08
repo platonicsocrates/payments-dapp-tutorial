@@ -10,3 +10,4 @@ const DEFAULT_STATS = {
 
   // Set to true to show errors during build
   errors: true,
+
