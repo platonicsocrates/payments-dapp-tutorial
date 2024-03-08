@@ -285,3 +285,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             destination={paymentDestination}
           />
         );
+      }
