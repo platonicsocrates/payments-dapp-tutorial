@@ -116,3 +116,4 @@ export const SendPayment = (props: SendPaymentProps) => {
 
       return true;
     } catch (error) {
+      console.log(error);
