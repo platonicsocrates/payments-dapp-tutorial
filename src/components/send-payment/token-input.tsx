@@ -57,3 +57,4 @@ export const TokenInput = (props: TokenInputProps) => {
         >
           Next
         </Button>
+      </div>
