@@ -100,3 +100,4 @@ const commonConfig = (env) => ({
           { loader: "sass-loader" },
         ],
       },
+      {
