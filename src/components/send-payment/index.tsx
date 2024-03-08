@@ -171,3 +171,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             settxResultXDR(result);
             setIsSubmitting(false);
 
+            setStepCount((stepCount + 1) as StepCount);
