@@ -48,3 +48,4 @@ const commonConfig = (env) => ({
         type: "javascript/auto",
       },
       {
+        test: /\.m?js/,
