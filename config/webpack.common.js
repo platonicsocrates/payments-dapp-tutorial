@@ -63,3 +63,4 @@ const commonConfig = (env) => ({
       },
       {
         test: /\.(ts|tsx)$/,
+        use: ["ts-loader"],
