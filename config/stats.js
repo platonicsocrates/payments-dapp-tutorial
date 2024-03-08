@@ -9,3 +9,4 @@ const DEFAULT_STATS = {
   modules: true,
 
   // Set to true to show errors during build
+  errors: true,
