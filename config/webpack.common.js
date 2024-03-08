@@ -116,3 +116,4 @@ const commonConfig = (env) => ({
   },
   // Plugins for webpack
   plugins: [
+    new ESLintPlugin({
