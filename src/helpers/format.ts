@@ -13,3 +13,4 @@ export const stroopToXlm = (
   }
   return new BigNumber(Number(stroops) / 1e7);
 };
+
