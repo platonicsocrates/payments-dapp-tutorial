@@ -41,3 +41,4 @@ export const TxResult = (props: TxResultProps) => (
       {/* This is the "Start Over" button */}
       <Button size="md" variant="tertiary" isFullWidth onClick={props.onClick}>
         Start Over
+      </Button>
