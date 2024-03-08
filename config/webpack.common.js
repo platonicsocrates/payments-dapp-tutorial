@@ -132,3 +132,4 @@ const commonConfig = (env) => ({
       template: path.resolve(__dirname, "../public/index.html"),
       chunks: ["index"],
       filename: `${BUILD_PATH}/index.html`,
+    }),
