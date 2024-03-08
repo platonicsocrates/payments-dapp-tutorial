@@ -305,3 +305,4 @@ export const getEstimatedFee = async (
   const fee = (classicFeeNum + minResourceFeeNum).toString();
   return fee;
 };
+
