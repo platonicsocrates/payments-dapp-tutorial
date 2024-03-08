@@ -116,3 +116,4 @@ export const simulateTx = async <ArgType>(
     SorobanRpc.Api.isSimulationSuccess(response) &&
     response.result !== undefined
   ) {
+    return scValToNative(response.result.retval);
