@@ -7,3 +7,4 @@ const DEFAULT_STATS = {
 
   // Set to true to show stats for individual modules
   modules: true,
+
