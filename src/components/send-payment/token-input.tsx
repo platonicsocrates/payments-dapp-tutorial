@@ -36,3 +36,4 @@ export const TokenInput = (props: TokenInputProps) => {
       </Heading>
 
       {/* This is an input field for the token ID. */}
+      <Input
