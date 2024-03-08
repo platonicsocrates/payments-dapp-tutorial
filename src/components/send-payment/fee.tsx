@@ -42,3 +42,4 @@ export const Fee = (props: FeeProps) => {
         fieldSize="md"
         id="input-memo"
         label="Memo"
+        value={props.memo} // Display the current memo value
