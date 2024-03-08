@@ -47,3 +47,4 @@ export const Fee = (props: FeeProps) => {
       />
       <div className="submit-row-fee">
         <Button
+          size="md"
