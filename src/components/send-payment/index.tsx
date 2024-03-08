@@ -156,3 +156,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         return <TxResult onClick={onClick} resultXDR={txResultXDR} />;
       }
       case 7: {
+        // Submit the transaction to the network
