@@ -197,3 +197,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         const setSignedTx = (xdr: string) => {
           setConnectionError(null);
           setSignedXdr(xdr);
+          setStepCount((stepCount + 1) as StepCount);
