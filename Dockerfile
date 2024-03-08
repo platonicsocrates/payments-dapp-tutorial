@@ -6,3 +6,4 @@ LABEL maintainer="SDF Ops Team <ops@stellar.org>"
 
 # Creating a directory called 'app' inside the container and setting it as the working directory
 RUN mkdir -p /app
+WORKDIR /app
