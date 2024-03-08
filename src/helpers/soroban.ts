@@ -110,3 +110,4 @@ export const simulateTx = async <ArgType>(
   tx: Transaction<Memo<MemoType>, Operation[]>,
   server: SorobanRpc.Server,
 ): Promise<ArgType> => {
+  const response = await server.simulateTransaction(tx);
