@@ -135,3 +135,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         new BigNumber(sendAmount).toNumber(),
         paymentDestination,
         activePubKey!,
+        memo,
