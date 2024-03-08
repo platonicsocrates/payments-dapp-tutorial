@@ -185,3 +185,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             amount={sendAmount}
             tokenSymbol={tokenSymbol}
             fee={fee}
+            signedXdr={signedXdr}
