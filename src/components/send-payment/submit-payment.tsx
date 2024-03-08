@@ -48,3 +48,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
         <div className="dest-identicon">
           {/* Displaying the recipient's profile picture */}
           <Profile isShort publicAddress={props.destination} size="sm" />
+        </div>
