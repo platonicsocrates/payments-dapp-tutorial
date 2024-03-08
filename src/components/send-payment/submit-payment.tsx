@@ -17,3 +17,4 @@ import { copyContent } from "../../helpers/dom";
 interface SubmitPaymentProps {
   amount: string;
   destination: string;
+  fee: string;
