@@ -24,3 +24,4 @@ export const PaymentDest = (props: PaymentDestProps) => {
       </Heading>
       <Input
         fieldSize="md"
+        id="input-destination"
