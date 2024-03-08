@@ -161,3 +161,4 @@ export const getTokenSymbol = async (
   txBuilder: TransactionBuilder,
   server: SorobanRpc.Server,
 ) => {
+  const contract = new Contract(tokenId);
