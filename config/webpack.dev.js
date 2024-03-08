@@ -7,3 +7,4 @@ const webpack = require("webpack");
 const { commonConfig } = require("./webpack.common.js");
 
 // Here we define the specific configuration for the development mode.
+const devConfig = {
