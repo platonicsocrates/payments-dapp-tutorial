@@ -25,3 +25,4 @@ interface ConfirmPaymentProps {
   kit: StellarWalletsKit;
   memo: string;
   network: string;
+  onTxSign: (xdr: string) => void;
