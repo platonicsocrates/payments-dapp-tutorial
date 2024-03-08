@@ -297,3 +297,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             await SWKKit.openModal({
               allowedWallets: [
                 WalletType.ALBEDO,
+                WalletType.FREIGHTER,
