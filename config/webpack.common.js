@@ -151,3 +151,4 @@ const commonConfig = (env) => ({
 
 // Exporting commonConfig and BUILD_PATH
 module.exports.commonConfig = commonConfig;
+module.exports.BUILD_PATH = BUILD_PATH;
