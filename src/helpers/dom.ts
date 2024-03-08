@@ -6,3 +6,4 @@ export const copyContent = async (text: string) => {
     // If the text is successfully copied, we log a success message to the console
     console.log("Content copied to clipboard");
   } catch (err) {
+    // If there is an error while copying the text, we log an error message to the console
