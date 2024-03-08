@@ -21,3 +21,4 @@ export const TokenInput = (props: TokenInputProps) => {
     setValue(event.target.value);
   };
 
+  // This function is called when the button is clicked.
