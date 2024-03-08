@@ -139,3 +139,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         server,
       );
       setFee(stroopToXlm(estimatedFee).toString());
+      setIsGettingFee(false);
