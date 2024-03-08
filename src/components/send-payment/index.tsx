@@ -244,3 +244,4 @@ export const SendPayment = (props: SendPaymentProps) => {
               <Loader />
             </div>
           );
+        }
