@@ -53,3 +53,4 @@ export const TokenInput = (props: TokenInputProps) => {
           variant="tertiary"
           isFullWidth
           onClick={onClick}
+          disabled={value.length < 1}
