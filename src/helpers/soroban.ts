@@ -184,3 +184,4 @@ export const getTokenName = async (
     .build();
 
   const result = await simulateTx<string>(tx, server);
+  return result;
