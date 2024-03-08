@@ -270,3 +270,4 @@ export const SendPayment = (props: SendPaymentProps) => {
           const success = await setToken(value);
 
           if (success) {
+            setStepCount((stepCount + 1) as StepCount);
