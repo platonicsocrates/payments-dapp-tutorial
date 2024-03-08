@@ -11,3 +11,4 @@ import {
 } from "@stellar/design-system";
 import {
   StellarWalletsKit,
+  WalletNetwork,
