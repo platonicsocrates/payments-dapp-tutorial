@@ -310,3 +310,4 @@ export const SendPayment = (props: SendPaymentProps) => {
                 } catch (error) {
                   console.log(error);
                   setConnectionError(ERRORS.WALLET_CONNECTION_REJECTED);
+                }
