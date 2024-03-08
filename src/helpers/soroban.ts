@@ -14,3 +14,4 @@ import {
   xdr,
 } from "@stellar/stellar-sdk";
 
+import BigNumber from "bignumber.js";
