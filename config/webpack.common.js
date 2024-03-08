@@ -20,3 +20,4 @@ const commonConfig = (env) => ({
     index: ["babel-polyfill", path.resolve(__dirname, "../src/index.tsx")],
   },
   // Watch options for webpack
+  watchOptions: {
