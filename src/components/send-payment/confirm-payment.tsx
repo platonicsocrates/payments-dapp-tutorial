@@ -121,3 +121,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
           isFullWidth
           onClick={signWithFreighter}
         >
+          Sign with Freighter
