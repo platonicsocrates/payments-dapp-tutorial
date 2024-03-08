@@ -227,3 +227,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             onClick={onClick}
             setFee={setFee}
             setMemo={setMemo}
+          />
