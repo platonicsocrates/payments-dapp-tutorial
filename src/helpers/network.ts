@@ -22,3 +22,4 @@ export const signTx = async (
   kit: StellarWalletsKit, // The StellarWalletsKit instance
 ) => {
   // Signing the transaction using the StellarWalletsKit's sign method
+  const { signedXDR } = await kit.sign({
