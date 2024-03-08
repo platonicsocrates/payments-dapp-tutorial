@@ -25,3 +25,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
       <Heading as="h1" size="sm">
         Send a Soroban Payment
       </Heading>
+
