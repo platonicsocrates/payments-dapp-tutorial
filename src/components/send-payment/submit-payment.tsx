@@ -24,3 +24,4 @@ interface SubmitPaymentProps {
   onClick: () => void;
   signedXdr: string;
   tokenSymbol: string;
+}
