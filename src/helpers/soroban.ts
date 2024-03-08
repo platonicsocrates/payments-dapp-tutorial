@@ -130,3 +130,4 @@ export const submitTx = async (
   const tx = TransactionBuilder.fromXDR(signedXDR, networkPassphrase);
 
   const sendResponse = await server.sendTransaction(tx);
+
