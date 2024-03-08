@@ -7,3 +7,4 @@ export interface NetworkDetails {
   networkUrl: string; // The URL of the network
   networkPassphrase: string; // The passphrase of the network
 }
+
