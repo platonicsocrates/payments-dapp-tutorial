@@ -141,3 +141,4 @@ const commonConfig = (env) => ({
       Buffer: ["buffer", "Buffer"],
     }),
   ],
+  // Default stats configuration
