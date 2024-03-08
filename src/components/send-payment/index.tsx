@@ -121,3 +121,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       setLoadingTokenDetails(false);
 
       return false;
+    }
