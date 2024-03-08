@@ -7,3 +7,4 @@ import { Button, Heading, Input } from "@stellar/design-system";
 interface PaymentDestProps {
   destination: string; // The current payment destination address
   setDestination: (address: string) => void; // A function to update the payment destination address
+  onClick: () => void; // A function to handle the "Next" button click
