@@ -110,3 +110,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       setTokenBalance(balance);
 
       // Get the number of decimals set for the selected token
+      const decimals = await getTokenDecimals(id, server);
