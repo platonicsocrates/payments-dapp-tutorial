@@ -91,3 +91,4 @@ export const getServer = (networkDetails: NetworkDetails) =>
     allowHttp: networkDetails.networkUrl.startsWith("http://"),
   });
 
+// Function to get a TransactionBuilder configured with our public key
