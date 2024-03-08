@@ -35,3 +35,4 @@ export const TokenInput = (props: TokenInputProps) => {
         Choose Token To Send
       </Heading>
 
+      {/* This is an input field for the token ID. */}
