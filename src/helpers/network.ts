@@ -8,3 +8,4 @@ export interface NetworkDetails {
   networkPassphrase: string; // The passphrase of the network
 }
 
+// Details specific to the Futurenet network
