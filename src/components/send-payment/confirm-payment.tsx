@@ -96,3 +96,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
             <Profile isShort publicAddress={props.destination} size="sm" />
           </div>
         </div>
+        <div className="tx-detail-item">
