@@ -34,3 +34,4 @@ const DEFAULT_STATS = {
 };
 
 module.exports = {
+  DEFAULT_STATS,
