@@ -7,3 +7,4 @@ export const ERRORS = {
   UNABLE_TO_SUBMIT_TX: "Unable to submit transaction", // This error message is displayed when there is an issue with submitting a transaction.
   UNABLE_TO_SIGN_TX: "Unable to sign transaction", // This error message is displayed when there is an issue with signing a transaction.
   WALLET_CONNECTION_REJECTED: "Wallet connection rejected", // This error message is displayed when the connection to the wallet is rejected.
+};
