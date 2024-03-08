@@ -18,3 +18,4 @@ export const SendAmount = (props: SendAmountProps) => {
   // User needs to have enough tokens to transfer the amount they have provided
   const canFulfillPayment = new BigNumber(props.amount).isLessThanOrEqualTo(
     new BigNumber(props.balance),
+  );
