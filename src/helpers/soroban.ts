@@ -293,3 +293,4 @@ export const getEstimatedFee = async (
   if (
     SorobanRpc.Api.isSimulationSuccess(simResponse) &&
     simResponse.result !== undefined
+  ) {
