@@ -30,3 +30,4 @@ export const SendTxStatus: {
   [index: string]: SorobanRpc.Api.SendTransactionStatus;
 } = {
   Pending: "PENDING",
+  Duplicate: "DUPLICATE",
