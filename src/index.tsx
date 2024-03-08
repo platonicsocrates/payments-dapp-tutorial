@@ -13,3 +13,4 @@ import "./index.scss";
 
 // Creating a root element to render the SendPayment component
 const root = ReactDOM.createRoot(document.getElementById("root")!);
+
