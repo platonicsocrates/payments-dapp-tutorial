@@ -33,3 +33,4 @@ export const Fee = (props: FeeProps) => {
       </Heading>
       <Input
         fieldSize="md"
+        id="input-fee"
