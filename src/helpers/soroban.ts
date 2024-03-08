@@ -236,3 +236,4 @@ export const makePayment = async (
     .addOperation(
       contract.call(
         "transfer",
+        ...[
