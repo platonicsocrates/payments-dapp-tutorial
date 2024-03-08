@@ -249,3 +249,4 @@ export const makePayment = async (
     tx.addMemo(Memo.text(memo));
   }
 
+  const preparedTransaction = await server.prepareTransaction(tx.build());
