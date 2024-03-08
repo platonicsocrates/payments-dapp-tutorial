@@ -50,3 +50,4 @@ export const SendAmount = (props: SendAmountProps) => {
         <Button
           size="md"
           variant="tertiary"
+          isFullWidth
