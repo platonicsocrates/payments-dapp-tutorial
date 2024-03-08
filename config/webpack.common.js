@@ -8,3 +8,4 @@ const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 const path = require("path");
 
 // Importing default stats configuration
+const { DEFAULT_STATS } = require("./stats");
