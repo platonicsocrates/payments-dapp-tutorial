@@ -335,3 +335,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       )}
       <div className="Layout__inset account-badge-row">
         {activePubKey !== null && (
+          <Profile isShort publicAddress={activePubKey} size="sm" />
