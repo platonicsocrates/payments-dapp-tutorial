@@ -295,3 +295,4 @@ export const SendPayment = (props: SendPaymentProps) => {
           if (!activePubKey) {
             // Open the wallet modal and set the selected wallet, network, and public key
             await SWKKit.openModal({
+              allowedWallets: [
