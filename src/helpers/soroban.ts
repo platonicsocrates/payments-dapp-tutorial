@@ -41,3 +41,4 @@ export const XLM_DECIMALS = 7;
 // Mapping of network URLs
 export const RPC_URLS: { [key: string]: string } = {
   FUTURENET: "https://rpc-futurenet.stellar.org/",
+};
