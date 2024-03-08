@@ -91,3 +91,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   React.useEffect(() => {
     SWKKit.setNetwork(selectedNetwork.networkPassphrase as WalletNetwork);
   }, [selectedNetwork.networkPassphrase, SWKKit]);
+
