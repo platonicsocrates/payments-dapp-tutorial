@@ -75,3 +75,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   const [signedXdr, setSignedXdr] = React.useState("");
 
   // Loading states
+  const [isLoadingTokenDetails, setLoadingTokenDetails] = React.useState(false);
