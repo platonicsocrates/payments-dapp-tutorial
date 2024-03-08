@@ -54,3 +54,4 @@ export const Fee = (props: FeeProps) => {
         >
           Next
         </Button>
+      </div>
