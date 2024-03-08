@@ -208,3 +208,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             onTxSign={setSignedTx}
             network={selectedNetwork.network}
             destination={paymentDestination}
+            amount={sendAmount}
