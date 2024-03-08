@@ -76,3 +76,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
       <Heading as="h1" size="sm">
         Confirm Payment
       </Heading>
+
