@@ -22,3 +22,4 @@ import { ERRORS } from "../../helpers/error";
 import {
   getEstimatedFee,
   getTxBuilder,
+  BASE_FEE,
