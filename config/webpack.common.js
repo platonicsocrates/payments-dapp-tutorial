@@ -138,3 +138,4 @@ const commonConfig = (env) => ({
       chunkFilename: "[name].min.css",
     }),
     new webpack.ProvidePlugin({
+      Buffer: ["buffer", "Buffer"],
