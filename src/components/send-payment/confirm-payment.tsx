@@ -54,3 +54,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
       props.tokenId,
       amount.toNumber(),
       props.destination,
+      props.pubKey,
