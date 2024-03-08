@@ -30,3 +30,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
         fi
     done < "$backupFile"
 
+    # If no changes were made, restore the file
