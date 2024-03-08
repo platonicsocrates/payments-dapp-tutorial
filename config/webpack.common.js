@@ -75,3 +75,4 @@ const commonConfig = (env) => ({
         test: /\.png$/,
         use: [
           {
+            loader: "file-loader",
