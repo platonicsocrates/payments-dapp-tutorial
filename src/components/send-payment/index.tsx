@@ -57,3 +57,4 @@ export const SendPayment = (props: SendPaymentProps) => {
 
   // Initial state, empty states for token/transaction details
   const [activePubKey, setActivePubKey] = React.useState(null as string | null);
+  const [stepCount, setStepCount] = React.useState(1 as StepCount);
