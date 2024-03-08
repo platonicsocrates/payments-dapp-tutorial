@@ -32,3 +32,4 @@ const commonConfig = (env) => ({
   resolve: {
     extensions: [".ts", ".tsx", ".js"],
     plugins: [
+      new TsconfigPathsPlugin({
