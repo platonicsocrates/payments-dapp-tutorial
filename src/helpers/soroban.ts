@@ -113,3 +113,4 @@ export const simulateTx = async <ArgType>(
   const response = await server.simulateTransaction(tx);
 
   if (
+    SorobanRpc.Api.isSimulationSuccess(response) &&
