@@ -88,3 +88,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   );
 
   // Whenever the selected network changes, update the network on SWK
+  React.useEffect(() => {
