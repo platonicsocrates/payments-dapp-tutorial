@@ -14,3 +14,4 @@ interface ConnectWalletProps {
 
 // This is the actual component function.
 // It receives the props as an argument and returns the JSX to be rendered.
+export const ConnectWallet = (props: ConnectWalletProps) => {
