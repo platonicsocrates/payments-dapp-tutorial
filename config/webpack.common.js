@@ -128,3 +128,4 @@ const commonConfig = (env) => ({
     //     }
     //   ]
     // }),
+    new HtmlWebPackPlugin({
