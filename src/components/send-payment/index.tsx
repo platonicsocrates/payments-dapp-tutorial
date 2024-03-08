@@ -304,3 +304,4 @@ export const SendPayment = (props: SendPaymentProps) => {
                 try {
                   SWKKit.setWallet(option.type);
                   const publicKey = await SWKKit.getPublicKey();
+
