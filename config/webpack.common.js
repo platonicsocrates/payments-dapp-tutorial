@@ -23,3 +23,4 @@ const commonConfig = (env) => ({
   watchOptions: {
     ignored: ["node_modules/**/*", "build/**/*"],
   },
+  // Output configuration
