@@ -20,3 +20,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
   const text = props.pubKey ? "Next" : "Connect Freighter";
 
   return (
+    <>
