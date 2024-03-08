@@ -16,3 +16,4 @@ interface ConnectWalletProps {
 // It receives the props as an argument and returns the JSX to be rendered.
 export const ConnectWallet = (props: ConnectWalletProps) => {
   // Let's determine the text to be displayed on the button.
+  // If the public key is available, we show "Next", otherwise "Connect Freighter".
