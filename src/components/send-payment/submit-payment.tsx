@@ -97,3 +97,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
 
         {/* Loader component to show loading state */}
         {props.isSubmitting && <Loader />}
+      </Button>
