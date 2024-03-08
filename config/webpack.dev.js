@@ -16,3 +16,4 @@ const devConfig = {
   plugins: [
     // We use the DefinePlugin to define a global variable DEV_SERVER as true.
     // This can be useful for conditional logic in our code.
+    new webpack.DefinePlugin({
