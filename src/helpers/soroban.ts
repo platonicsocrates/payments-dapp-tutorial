@@ -288,3 +288,4 @@ export const getEstimatedFee = async (
 
   if (SorobanRpc.Api.isSimulationError(simResponse)) {
     throw simResponse.error;
+  }
