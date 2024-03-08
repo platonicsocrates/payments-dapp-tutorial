@@ -303,3 +303,4 @@ export const SendPayment = (props: SendPaymentProps) => {
               onWalletSelected: async (option: ISupportedWallet) => {
                 try {
                   SWKKit.setWallet(option.type);
+                  const publicKey = await SWKKit.getPublicKey();
