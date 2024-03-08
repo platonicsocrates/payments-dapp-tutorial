@@ -212,3 +212,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             fee={fee}
             memo={memo}
             networkDetails={selectedNetwork}
+            kit={SWKKit}
