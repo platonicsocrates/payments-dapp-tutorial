@@ -113,3 +113,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       const decimals = await getTokenDecimals(id, server);
       setTokenDecimals(decimals);
       setLoadingTokenDetails(false);
+
