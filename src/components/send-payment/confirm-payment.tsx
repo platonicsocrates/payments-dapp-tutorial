@@ -95,3 +95,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
             {/* Display recipient's profile picture */}
             <Profile isShort publicAddress={props.destination} size="sm" />
           </div>
+        </div>
