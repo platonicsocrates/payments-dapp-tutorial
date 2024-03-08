@@ -258,3 +258,4 @@ export const makePayment = async (
 export const getEstimatedFee = async (
   tokenId: string,
   amount: number,
+  to: string,
