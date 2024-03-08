@@ -32,3 +32,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
 
     # If no changes were made, restore the file
     if [ "$changeMade" = false ]; then
+        mv "$backupFile" "$file"
