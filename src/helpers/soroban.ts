@@ -32,3 +32,4 @@ export const SendTxStatus: {
   Pending: "PENDING",
   Duplicate: "DUPLICATE",
   Retry: "TRY_AGAIN_LATER",
+  Error: "ERROR",
