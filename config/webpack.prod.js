@@ -27,3 +27,4 @@ const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
         new I18nextWebpackPlugin({
           async: true,
           dest: "./",
+          extensions: [".ts", ".tsx"],
