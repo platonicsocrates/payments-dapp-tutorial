@@ -114,3 +114,4 @@ const commonConfig = (env) => ({
       },
     ],
   },
+  // Plugins for webpack
