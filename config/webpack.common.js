@@ -12,3 +12,4 @@ const { DEFAULT_STATS } = require("./stats");
 
 // Defining the build path
 const BUILD_PATH = path.resolve(__dirname, "../build");
+
