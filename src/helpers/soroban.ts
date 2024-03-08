@@ -237,3 +237,4 @@ export const makePayment = async (
       contract.call(
         "transfer",
         ...[
+          accountToScVal(pubKey), // from
