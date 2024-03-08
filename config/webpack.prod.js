@@ -22,3 +22,4 @@ const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
     }),
 
     // If TRANSLATIONS is true, configure i18next-webpack-plugin
+    ...(env.TRANSLATIONS
