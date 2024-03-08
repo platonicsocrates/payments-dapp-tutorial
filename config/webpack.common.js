@@ -136,3 +136,4 @@ const commonConfig = (env) => ({
     new MiniCssExtractPlugin({
       filename: "style.min.css",
       chunkFilename: "[name].min.css",
+    }),
