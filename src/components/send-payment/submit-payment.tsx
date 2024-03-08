@@ -60,3 +60,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
         </p>
       </div>
 
+      {/* Fee */}
