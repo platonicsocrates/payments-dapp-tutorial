@@ -65,3 +65,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
       const signedTx = await signTx(xdr, props.pubKey, props.kit);
       props.onTxSign(signedTx);
     } catch (error) {
+      console.log(error);
