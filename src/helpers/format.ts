@@ -7,3 +7,4 @@ export const truncateString = (str: string) =>
 // This function converts the base fee from stroops to XLM (Stellar Lumens)
 export const stroopToXlm = (
   stroops: BigNumber | string | number,
+): BigNumber => {
