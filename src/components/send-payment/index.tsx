@@ -291,3 +291,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         // Connect the wallet
         const onClick = async () => {
           setConnectionError(null);
+
