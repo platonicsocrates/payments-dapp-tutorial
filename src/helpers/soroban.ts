@@ -112,3 +112,4 @@ export const simulateTx = async <ArgType>(
 ): Promise<ArgType> => {
   const response = await server.simulateTransaction(tx);
 
+  if (
