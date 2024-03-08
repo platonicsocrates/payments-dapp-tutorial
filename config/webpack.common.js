@@ -110,3 +110,4 @@ const commonConfig = (env) => ({
               outputPath: "fonts/",
             },
           },
+        ],
