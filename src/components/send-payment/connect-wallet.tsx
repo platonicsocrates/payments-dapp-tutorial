@@ -52,3 +52,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
       </div>
     </>
   );
+};
