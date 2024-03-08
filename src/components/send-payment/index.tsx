@@ -106,3 +106,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       setTokenSymbol(symbol);
 
       // Get the current token balance for the selected token
+      const balance = await getTokenBalance(activePubKey!, id, server);
