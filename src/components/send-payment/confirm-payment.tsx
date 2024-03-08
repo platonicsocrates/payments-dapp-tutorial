@@ -9,3 +9,4 @@ import { StellarWalletsKit } from "stellar-wallets-kit";
 import { xlmToStroop } from "../../helpers/format";
 import { NetworkDetails, signTx } from "../../helpers/network";
 import {
+  makePayment,
