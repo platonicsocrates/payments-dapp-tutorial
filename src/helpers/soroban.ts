@@ -159,3 +159,4 @@ export const submitTx = async (
 export const getTokenSymbol = async (
   tokenId: string,
   txBuilder: TransactionBuilder,
+  server: SorobanRpc.Server,
