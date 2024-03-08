@@ -6,3 +6,4 @@ import {
   MemoType,
   nativeToScVal,
   Operation,
+  scValToNative,
