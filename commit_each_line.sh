@@ -34,3 +34,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
     if [ "$changeMade" = false ]; then
         mv "$backupFile" "$file"
     fi
+
