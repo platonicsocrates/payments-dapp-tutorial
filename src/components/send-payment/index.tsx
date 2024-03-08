@@ -34,3 +34,4 @@ import {
 import { SendAmount } from "./send-amount";
 import { ConnectWallet } from "./connect-wallet";
 import { PaymentDest } from "./payment-destination";
+import { TokenInput } from "./token-input";
