@@ -103,3 +103,4 @@ export const getTxBuilder = async (
     fee,
     networkPassphrase,
   });
+};
