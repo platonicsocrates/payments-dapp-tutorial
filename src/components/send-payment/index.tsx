@@ -170,3 +170,4 @@ export const SendPayment = (props: SendPaymentProps) => {
 
             settxResultXDR(result);
             setIsSubmitting(false);
+
