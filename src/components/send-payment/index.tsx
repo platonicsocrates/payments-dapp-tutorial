@@ -287,3 +287,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         );
       }
       case 1:
+      default: {
