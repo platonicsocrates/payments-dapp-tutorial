@@ -145,3 +145,4 @@ const commonConfig = (env) => ({
   stats: DEFAULT_STATS,
   // Development server configuration
   devServer: {
+    hot: true,
