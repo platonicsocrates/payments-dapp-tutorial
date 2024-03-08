@@ -232,3 +232,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       }
       case 4: {
         // Set the amount to send in the payment
+        const onClick = async () => {
