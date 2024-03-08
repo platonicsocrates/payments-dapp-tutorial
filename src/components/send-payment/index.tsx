@@ -31,3 +31,4 @@ import {
   submitTx,
 } from "../../helpers/soroban";
 
+import { SendAmount } from "./send-amount";
