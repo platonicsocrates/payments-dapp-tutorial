@@ -216,3 +216,4 @@ export const getTokenBalance = async (
     .addOperation(contract.call("balance", ...params))
     .setTimeout(TimeoutInfinite)
     .build();
+
