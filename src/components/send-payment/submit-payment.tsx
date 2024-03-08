@@ -31,3 +31,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
   <>
     {/* Heading for the submit payment section */}
     <Heading as="h1" size="sm">
+      Submit Payment
