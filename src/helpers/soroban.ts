@@ -199,3 +199,4 @@ export const getTokenDecimals = async (
     .setTimeout(TimeoutInfinite)
     .build();
 
+  const result = await simulateTx<number>(tx, server);
