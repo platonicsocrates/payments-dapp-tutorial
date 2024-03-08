@@ -14,3 +14,4 @@ interface SendAmountProps {
   tokenSymbol: string; // The symbol of the token being sent
 }
 
+export const SendAmount = (props: SendAmountProps) => {
