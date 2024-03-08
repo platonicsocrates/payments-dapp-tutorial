@@ -27,3 +27,4 @@ export const TokenInput = (props: TokenInputProps) => {
     props.onClick(value);
   };
 
+  // Now, let's render the component.
