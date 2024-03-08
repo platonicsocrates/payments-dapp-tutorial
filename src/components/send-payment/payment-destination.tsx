@@ -28,3 +28,4 @@ export const PaymentDest = (props: PaymentDestProps) => {
         label="Destination Account"
         value={props.destination} // The current value of the payment destination address
         onChange={handleChange} // We bind the handleChange function to the input field's onChange event
+      />
