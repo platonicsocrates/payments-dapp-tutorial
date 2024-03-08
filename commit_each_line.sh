@@ -28,3 +28,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
     # Cleanup backup for this file
     rm -f "$backupFile"
 done
+
