@@ -24,3 +24,4 @@ const DEFAULT_STATS = {
   assets: true,
 
   // Set to an array of regular expressions to exclude specific assets from being displayed
+  excludeAssets: [/\.d\.ts/, /\.png/, /\.jpe?g/],
