@@ -24,3 +24,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
       {/* This is the heading for the form */}
       <Heading as="h1" size="sm">
         Send a Soroban Payment
+      </Heading>
