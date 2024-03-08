@@ -42,3 +42,4 @@ import { TxResult } from "./tx-result";
 
 import "./index.scss";
 
+type StepCount = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
