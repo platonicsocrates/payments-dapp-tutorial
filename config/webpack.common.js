@@ -29,3 +29,4 @@ const commonConfig = (env) => ({
     filename: "[contenthash].js",
   },
   // Resolving file extensions and paths
+  resolve: {
