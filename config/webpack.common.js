@@ -125,3 +125,4 @@ const commonConfig = (env) => ({
     //     {
     //       from: path.resolve(__dirname, "../public/static"),
     //       to: BUILD_PATH,
+    //     }
