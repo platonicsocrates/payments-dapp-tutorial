@@ -16,3 +16,4 @@ const DEFAULT_STATS = {
 
   // Set to true to show the module trace for errors and warnings
   moduleTrace: true,
+
