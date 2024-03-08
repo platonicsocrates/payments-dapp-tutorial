@@ -23,3 +23,4 @@ export const xlmToStroop = (lumens: BigNumber | string): BigNumber => {
   return new BigNumber(Math.round(Number(lumens) * 1e7));
 };
 
+// This function formats the token amount based on the number of decimals
