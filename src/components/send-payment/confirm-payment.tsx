@@ -113,3 +113,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
         </div>
       </div>
 
+      {/* Button to sign the transaction with Freighter */}
