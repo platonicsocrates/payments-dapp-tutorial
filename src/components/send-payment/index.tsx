@@ -194,3 +194,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       }
       case 6: {
         // Confirm the payment details and sign the transaction
+        const setSignedTx = (xdr: string) => {
