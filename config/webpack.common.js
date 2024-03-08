@@ -123,3 +123,4 @@ const commonConfig = (env) => ({
     // new CopyWebpackPlugin({
     //   patterns: [
     //     {
+    //       from: path.resolve(__dirname, "../public/static"),
