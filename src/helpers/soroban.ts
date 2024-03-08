@@ -98,3 +98,4 @@ export const getTxBuilder = async (
   server: SorobanRpc.Server,
   networkPassphrase: string,
 ) => {
+  const source = await server.getAccount(pubKey);
