@@ -172,3 +172,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             setIsSubmitting(false);
 
             setStepCount((stepCount + 1) as StepCount);
+          } catch (error) {
