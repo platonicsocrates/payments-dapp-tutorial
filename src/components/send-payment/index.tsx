@@ -292,3 +292,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         const onClick = async () => {
           setConnectionError(null);
 
+          if (!activePubKey) {
