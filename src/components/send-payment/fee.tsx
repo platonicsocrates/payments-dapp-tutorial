@@ -14,3 +14,4 @@ interface FeeProps {
 }
 
 // This is the Fee component itself.
+export const Fee = (props: FeeProps) => {
