@@ -42,3 +42,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
       <div className="submit-row">
         <Button
           size="md"
+          variant="tertiary"
