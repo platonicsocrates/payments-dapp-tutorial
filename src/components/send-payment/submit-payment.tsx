@@ -85,3 +85,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
             onClick={() => copyContent(props.signedXdr)}
           />
         </div>
+        <div className="xdr-data">{props.signedXdr}</div>
