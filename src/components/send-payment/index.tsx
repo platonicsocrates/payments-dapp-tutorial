@@ -56,3 +56,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   const [selectedNetwork] = React.useState(FUTURENET_DETAILS);
 
   // Initial state, empty states for token/transaction details
+  const [activePubKey, setActivePubKey] = React.useState(null as string | null);
