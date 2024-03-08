@@ -6,3 +6,4 @@
 import React from "react";
 import { Button, Heading, Profile } from "@stellar/design-system";
 import { StellarWalletsKit } from "stellar-wallets-kit";
+import { xlmToStroop } from "../../helpers/format";
