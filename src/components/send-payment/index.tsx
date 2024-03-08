@@ -85,3 +85,4 @@ export const SendPayment = (props: SendPaymentProps) => {
       network: selectedNetwork.networkPassphrase as WalletNetwork,
       selectedWallet: WalletType.FREIGHTER,
     }),
+  );
