@@ -9,3 +9,4 @@ interface TokenInputProps {
   onClick: (value: string) => void;
 }
 
+// Now, let's define the TokenInput component.
