@@ -26,3 +26,4 @@ import {
   XLM_DECIMALS,
   getTokenSymbol,
   getTokenDecimals,
+  getTokenBalance,
