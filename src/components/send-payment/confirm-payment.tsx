@@ -42,3 +42,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
 
     // Get an instance of a Soroban RPC set to the selected network
     const server = getServer(props.networkDetails);
+
