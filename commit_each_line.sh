@@ -19,3 +19,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
         echo "$line" >> "$file" # Append the current line for a cumulative build-up
 
         # Force a commit for each line without checking for changes
+        git add "$file"
