@@ -96,3 +96,4 @@ const commonConfig = (env) => ({
             options: {
               sourceMap: true,
             },
+          },
