@@ -11,3 +11,4 @@ import {
 } from "@stellar/design-system";
 import { copyContent } from "../../helpers/dom";
 
+interface TxResultProps {
