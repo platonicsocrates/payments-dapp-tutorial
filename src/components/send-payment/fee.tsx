@@ -15,3 +15,4 @@ interface FeeProps {
 
 // This is the Fee component itself.
 export const Fee = (props: FeeProps) => {
+  // This function handles the change event for the fee input field.
