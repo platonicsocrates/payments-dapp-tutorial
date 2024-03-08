@@ -92,3 +92,4 @@ export const SendPayment = (props: SendPaymentProps) => {
     SWKKit.setNetwork(selectedNetwork.networkPassphrase as WalletNetwork);
   }, [selectedNetwork.networkPassphrase, SWKKit]);
 
+  // Function to fetch token details based on the provided token ID
