@@ -149,3 +149,4 @@ export const submitTx = async (
     if (txResponse.status === SorobanRpc.Api.GetTransactionStatus.SUCCESS) {
       return txResponse.resultXdr.toXDR("base64");
     }
+  }
