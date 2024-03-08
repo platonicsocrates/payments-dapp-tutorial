@@ -17,3 +17,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
     > "$file"
 
     # Read the backup file line by line
+    while IFS= read -r line; do
