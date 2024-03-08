@@ -152,3 +152,4 @@ export const SendPayment = (props: SendPaymentProps) => {
     switch (step) {
       case 8: {
         // Display the transaction result
+        const onClick = () => setStepCount(1);
