@@ -11,3 +11,4 @@ const LOCALES = ["en", "pt"];
 const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
   mode: "production",
   optimization: {
+    minimize: env.PRODUCTION,
