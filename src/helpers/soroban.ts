@@ -21,3 +21,4 @@ import { ERRORS } from "./error";
 
 // TODO: once soroban supports estimated fees, we can fetch this
 
+// Defining the base fee for transactions
