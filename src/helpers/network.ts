@@ -18,3 +18,4 @@ export const FUTURENET_DETAILS = {
 // Function to sign a transaction
 export const signTx = async (
   xdr: string, // The transaction XDR
+  publicKey: string, // The public key of the signer
