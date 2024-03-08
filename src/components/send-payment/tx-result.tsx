@@ -43,3 +43,4 @@ export const TxResult = (props: TxResultProps) => (
         Start Over
       </Button>
     </div>
+  </>
