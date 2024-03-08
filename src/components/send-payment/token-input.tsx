@@ -6,3 +6,4 @@ import { Button, Heading, Input } from "@stellar/design-system";
 
 // Let's define the props for this component.
 interface TokenInputProps {
+  onClick: (value: string) => void;
