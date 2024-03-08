@@ -26,3 +26,4 @@ export const PaymentDest = (props: PaymentDestProps) => {
         fieldSize="md"
         id="input-destination"
         label="Destination Account"
+        value={props.destination} // The current value of the payment destination address
