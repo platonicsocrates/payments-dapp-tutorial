@@ -61,3 +61,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   const [connectionError, setConnectionError] = React.useState(
     null as string | null,
   );
+
