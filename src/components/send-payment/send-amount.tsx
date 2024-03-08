@@ -58,3 +58,4 @@ export const SendAmount = (props: SendAmountProps) => {
         </Button>
       </div>
     </>
+  );
