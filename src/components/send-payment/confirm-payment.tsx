@@ -26,3 +26,4 @@ interface ConfirmPaymentProps {
   memo: string;
   network: string;
   onTxSign: (xdr: string) => void;
+  tokenId: string;
