@@ -4,3 +4,4 @@
 import React from "react";
 import { Button, Heading, Select } from "@stellar/design-system";
 
+// Here we define the props that this component expects.
