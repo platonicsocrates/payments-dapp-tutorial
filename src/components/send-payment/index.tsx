@@ -229,3 +229,4 @@ export const SendPayment = (props: SendPaymentProps) => {
             setMemo={setMemo}
           />
         );
+      }
