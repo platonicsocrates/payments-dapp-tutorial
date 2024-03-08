@@ -4,3 +4,4 @@ import { StellarWalletsKit } from "stellar-wallets-kit";
 // Defining the NetworkDetails interface which describes the details of a network
 export interface NetworkDetails {
   network: string; // The name of the network
+  networkUrl: string; // The URL of the network
