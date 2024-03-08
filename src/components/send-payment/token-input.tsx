@@ -39,3 +39,4 @@ export const TokenInput = (props: TokenInputProps) => {
       <Input
         fieldSize="md"
         id="input-token-id"
+        label="Token ID"
