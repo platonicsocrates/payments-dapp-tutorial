@@ -11,3 +11,4 @@ interface TokenInputProps {
 
 // Now, let's define the TokenInput component.
 export const TokenInput = (props: TokenInputProps) => {
+  // We're using React hooks here to manage the state of the input field.
