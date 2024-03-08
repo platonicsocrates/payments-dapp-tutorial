@@ -16,3 +16,4 @@ export const FUTURENET_DETAILS = {
 };
 
 // Function to sign a transaction
+export const signTx = async (
