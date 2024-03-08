@@ -56,3 +56,4 @@ export const TokenInput = (props: TokenInputProps) => {
           disabled={value.length < 1}
         >
           Next
+        </Button>
