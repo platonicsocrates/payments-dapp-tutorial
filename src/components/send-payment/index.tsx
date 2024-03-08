@@ -101,3 +101,4 @@ export const SendPayment = (props: SendPaymentProps) => {
     const server = getServer(selectedNetwork);
 
     try {
+      // Get the symbol for the set token ID
