@@ -4,3 +4,4 @@ export const copyContent = async (text: string) => {
     // We use the navigator.clipboard.writeText() method to write the text to the clipboard
     await navigator.clipboard.writeText(text);
     // If the text is successfully copied, we log a success message to the console
+    console.log("Content copied to clipboard");
