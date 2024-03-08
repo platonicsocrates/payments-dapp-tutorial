@@ -37,3 +37,4 @@ export const TxResult = (props: TxResultProps) => (
         <div className="xdr-data">{props.resultXDR}</div>
       </Card>
     </div>
+    <div className="submit-row-send">
