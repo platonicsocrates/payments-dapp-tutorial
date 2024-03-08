@@ -26,3 +26,4 @@ export const TokenInput = (props: TokenInputProps) => {
   const onClick = () => {
     props.onClick(value);
   };
+
