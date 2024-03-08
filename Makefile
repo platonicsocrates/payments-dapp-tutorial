@@ -7,3 +7,4 @@ LABEL ?= $(shell git rev-parse --short HEAD)$(and $(shell git status -s),-dirty-
 TAG ?= stellar/soroban-react-payment:$(LABEL)
 
 # Build date for the Docker image
+BUILD_DATE := $(shell date -u +%FT%TZ)
