@@ -24,3 +24,4 @@ const commonConfig = (env) => ({
     ignored: ["node_modules/**/*", "build/**/*"],
   },
   // Output configuration
+  output: {
