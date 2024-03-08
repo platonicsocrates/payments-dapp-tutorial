@@ -303,3 +303,4 @@ export const getEstimatedFee = async (
   const classicFeeNum = parseInt(raw.fee, 10) || 0;
   const minResourceFeeNum = parseInt(simResponse.minResourceFee, 10) || 0;
   const fee = (classicFeeNum + minResourceFeeNum).toString();
+  return fee;
