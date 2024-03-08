@@ -54,3 +54,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
       {/* Amount */}
       <div className="tx-detail-item">
         <p className="detail-header">Amount</p>
+        <p className="detail-value">
