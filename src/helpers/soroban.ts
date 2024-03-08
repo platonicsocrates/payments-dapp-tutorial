@@ -102,3 +102,4 @@ export const getTxBuilder = async (
   return new TransactionBuilder(source, {
     fee,
     networkPassphrase,
+  });
