@@ -120,3 +120,4 @@ const commonConfig = (env) => ({
       extensions: [".ts", ".tsx"],
       failOnWarning: true,
     }),
+    // new CopyWebpackPlugin({
