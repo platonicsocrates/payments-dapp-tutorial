@@ -125,3 +125,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
         </Button>
       </div>
     </>
+  );
