@@ -131,3 +131,4 @@ export const SendPayment = (props: SendPaymentProps) => {
 
     try {
       const estimatedFee = await getEstimatedFee(
+        tokenId,
