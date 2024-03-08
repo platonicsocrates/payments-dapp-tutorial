@@ -339,3 +339,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         )}
       </div>
       <div className="Layout__inset layout">
+        <div className="payment">
