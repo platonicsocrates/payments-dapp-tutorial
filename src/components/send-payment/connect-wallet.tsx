@@ -27,3 +27,4 @@ export const ConnectWallet = (props: ConnectWalletProps) => {
       </Heading>
 
       {/* This is a disabled select input to show the selected network */}
+      <Select
