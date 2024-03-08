@@ -338,3 +338,4 @@ export const SendPayment = (props: SendPaymentProps) => {
           <Profile isShort publicAddress={activePubKey} size="sm" />
         )}
       </div>
+      <div className="Layout__inset layout">
