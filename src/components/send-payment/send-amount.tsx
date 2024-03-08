@@ -44,3 +44,4 @@ export const SendAmount = (props: SendAmountProps) => {
         value={props.amount}
         onChange={handleChange}
       />
+
