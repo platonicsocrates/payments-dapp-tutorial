@@ -67,3 +67,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   const [tokenDecimals, setTokenDecimals] = React.useState(XLM_DECIMALS);
   const [paymentDestination, setPaymentDest] = React.useState("");
   const [sendAmount, setSendAmount] = React.useState("");
+  const [tokenSymbol, setTokenSymbol] = React.useState("");
