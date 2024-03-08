@@ -28,3 +28,4 @@ const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
           async: true,
           dest: "./",
           extensions: [".ts", ".tsx"],
+          options: {
