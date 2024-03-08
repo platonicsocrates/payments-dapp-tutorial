@@ -136,3 +136,4 @@ export const SendPayment = (props: SendPaymentProps) => {
         paymentDestination,
         activePubKey!,
         memo,
+        server,
