@@ -9,3 +9,4 @@ const LOCALES = ["en", "pt"];
 
 // Configuration for production environment
 const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
+  mode: "production",
