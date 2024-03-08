@@ -238,3 +238,4 @@ export const makePayment = async (
         "transfer",
         ...[
           accountToScVal(pubKey), // from
+          accountToScVal(to), // to
