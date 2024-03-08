@@ -77,3 +77,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
         Confirm Payment
       </Heading>
 
+      {/* Display transaction details */}
