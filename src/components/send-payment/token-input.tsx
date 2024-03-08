@@ -5,3 +5,4 @@ import React, { ChangeEvent } from "react";
 import { Button, Heading, Input } from "@stellar/design-system";
 
 // Let's define the props for this component.
+interface TokenInputProps {
