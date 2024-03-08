@@ -50,3 +50,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
           <Profile isShort publicAddress={props.destination} size="sm" />
         </div>
       </div>
+
