@@ -40,3 +40,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
     // Convert the amount to the appropriate format based on the token decimals
     const amount = parseTokenAmount(props.amount, props.tokenDecimals);
 
+    // Get an instance of a Soroban RPC set to the selected network
