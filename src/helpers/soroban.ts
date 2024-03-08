@@ -254,3 +254,4 @@ export const makePayment = async (
   return preparedTransaction.toXDR();
 };
 
+// Function to get the estimated fee for a transaction
