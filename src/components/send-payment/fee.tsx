@@ -39,3 +39,4 @@ export const Fee = (props: FeeProps) => {
         onChange={handleFeeChange} // Call the handleFeeChange function when the fee input changes
       />
       <Input
+        fieldSize="md"
