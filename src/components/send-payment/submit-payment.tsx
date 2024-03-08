@@ -21,3 +21,4 @@ interface SubmitPaymentProps {
   isSubmitting: boolean;
   memo: string;
   network: string;
+  onClick: () => void;
