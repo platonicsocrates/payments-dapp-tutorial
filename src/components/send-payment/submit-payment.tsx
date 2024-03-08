@@ -18,3 +18,4 @@ interface SubmitPaymentProps {
   amount: string;
   destination: string;
   fee: string;
+  isSubmitting: boolean;
