@@ -36,3 +36,4 @@ export const TxResult = (props: TxResultProps) => (
         </div>
         <div className="xdr-data">{props.resultXDR}</div>
       </Card>
+    </div>
