@@ -15,3 +15,4 @@ import { copyContent } from "../../helpers/dom";
 
 // Defining the props interface for the SubmitPayment component
 interface SubmitPaymentProps {
+  amount: string;
