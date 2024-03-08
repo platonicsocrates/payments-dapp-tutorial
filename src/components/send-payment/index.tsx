@@ -343,3 +343,4 @@ export const SendPayment = (props: SendPaymentProps) => {
           <Card variant="primary">
             <Caption size="sm" addlClassName="step-count">
               step {stepCount} of 8
+            </Caption>
