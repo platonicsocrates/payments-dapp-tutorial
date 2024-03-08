@@ -141,3 +141,4 @@ export const submitTx = async (
     // Poll this until the status is not "NOT_FOUND"
     while (
       txResponse.status === SorobanRpc.Api.GetTransactionStatus.NOT_FOUND
+    ) {
