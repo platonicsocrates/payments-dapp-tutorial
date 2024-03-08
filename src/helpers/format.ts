@@ -22,3 +22,4 @@ export const xlmToStroop = (lumens: BigNumber | string): BigNumber => {
   // round to the nearest stroop
   return new BigNumber(Math.round(Number(lumens) * 1e7));
 };
+
