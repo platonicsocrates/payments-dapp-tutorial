@@ -262,3 +262,4 @@ export const getEstimatedFee = async (
   pubKey: string,
   memo: string,
   txBuilder: TransactionBuilder,
+  server: SorobanRpc.Server,
