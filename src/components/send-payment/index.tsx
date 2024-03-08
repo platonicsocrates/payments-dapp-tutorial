@@ -100,3 +100,4 @@ export const SendPayment = (props: SendPaymentProps) => {
     // Get an instance of a Soroban RPC server for the selected network
     const server = getServer(selectedNetwork);
 
+    try {
