@@ -25,3 +25,4 @@ const prodConfig = (env = { PRODUCTION: false, TRANSLATIONS: false }) => ({
     ...(env.TRANSLATIONS
       ? [
         new I18nextWebpackPlugin({
+          async: true,
