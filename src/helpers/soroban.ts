@@ -234,3 +234,4 @@ export const makePayment = async (
   const contract = new Contract(tokenId);
   const tx = txBuilder
     .addOperation(
+      contract.call(
