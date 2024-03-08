@@ -149,3 +149,4 @@ const commonConfig = (env) => ({
   },
 });
 
+// Exporting commonConfig and BUILD_PATH
