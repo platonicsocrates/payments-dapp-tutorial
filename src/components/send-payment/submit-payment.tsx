@@ -41,3 +41,4 @@ export const SubmitPayment = (props: SubmitPaymentProps) => (
         <p className="detail-header">Network</p>
         <p className="detail-value">{props.network}</p>
       </div>
+
