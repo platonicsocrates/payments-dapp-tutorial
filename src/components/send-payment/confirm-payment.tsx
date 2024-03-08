@@ -47,3 +47,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
     const builder = await getTxBuilder(
       props.pubKey,
       xlmToStroop(props.fee).toString(),
+      server,
