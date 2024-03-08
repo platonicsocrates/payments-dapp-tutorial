@@ -5,3 +5,4 @@ SUDO := $(shell docker version >/dev/null 2>&1 || echo "sudo")
 LABEL ?= $(shell git rev-parse --short HEAD)$(and $(shell git status -s),-dirty-$(shell id -u -n))
 # If TAG is not provided set default value
 TAG ?= stellar/soroban-react-payment:$(LABEL)
+
