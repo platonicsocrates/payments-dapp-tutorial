@@ -150,3 +150,4 @@ export const submitTx = async (
       return txResponse.resultXdr.toXDR("base64");
     }
   }
+  throw new Error(
