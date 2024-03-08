@@ -53,3 +53,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
     const xdr = await makePayment(
       props.tokenId,
       amount.toNumber(),
+      props.destination,
