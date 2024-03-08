@@ -36,3 +36,4 @@ const commonConfig = (env) => ({
         configFile: path.resolve(__dirname, "../tsconfig.json"),
       }),
     ],
+    fallback: {
