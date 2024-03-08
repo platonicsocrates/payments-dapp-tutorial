@@ -57,3 +57,4 @@ export const Fee = (props: FeeProps) => {
       </div>
     </>
   );
+};
