@@ -331,3 +331,4 @@ export const SendPayment = (props: SendPaymentProps) => {
   return (
     <>
       {hasHeader && (
+        <Layout.Header hasThemeSwitch projectId="soroban-react-payment" />
