@@ -52,3 +52,4 @@ export const TokenInput = (props: TokenInputProps) => {
           size="md"
           variant="tertiary"
           isFullWidth
+          onClick={onClick}
