@@ -76,3 +76,4 @@ const commonConfig = (env) => ({
         use: [
           {
             loader: "file-loader",
+          },
