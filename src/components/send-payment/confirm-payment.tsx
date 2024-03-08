@@ -122,3 +122,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
           onClick={signWithFreighter}
         >
           Sign with Freighter
+        </Button>
