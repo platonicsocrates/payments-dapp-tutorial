@@ -32,3 +32,4 @@ export const Fee = (props: FeeProps) => {
         Payment Settings
       </Heading>
       <Input
+        fieldSize="md"
