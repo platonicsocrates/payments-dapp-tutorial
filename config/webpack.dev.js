@@ -22,3 +22,4 @@ const devConfig = {
   ],
 };
 
+// Finally, we export a function that merges the development configuration
