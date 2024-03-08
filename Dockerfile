@@ -35,3 +35,4 @@ FROM nginx:1.17
 COPY --from=build /app/build/ /usr/share/nginx/html/
 
 # Copying the custom Nginx configuration file from the 'build' stage to the Nginx configuration directory
+COPY --from=build /app/nginx.conf /etc/nginx/conf.d/default.conf
