@@ -45,3 +45,4 @@ export const TxResult = (props: TxResultProps) => (
     </div>
   </>
 );
+
