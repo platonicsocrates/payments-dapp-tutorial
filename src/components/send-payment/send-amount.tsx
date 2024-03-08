@@ -55,3 +55,4 @@ export const SendAmount = (props: SendAmountProps) => {
           disabled={props.amount.length < 1 || !canFulfillPayment}
         >
           Next
+        </Button>
