@@ -21,3 +21,4 @@ export const signTx = async (
   publicKey: string, // The public key of the signer
   kit: StellarWalletsKit, // The StellarWalletsKit instance
 ) => {
+  // Signing the transaction using the StellarWalletsKit's sign method
