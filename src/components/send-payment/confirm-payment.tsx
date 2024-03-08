@@ -117,3 +117,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
       <div className="submit-row-confirm">
         <Button
           size="md"
+          variant="tertiary"
