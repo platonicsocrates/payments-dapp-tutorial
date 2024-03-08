@@ -30,3 +30,4 @@ find . -type f \( ! -iname ".gitignore" ! -iname "package.json" ! -iname "yarn.l
 done
 
 # Remove the temporary backup directory if it's empty
+rmdir "$backupDir" 2>/dev/null
