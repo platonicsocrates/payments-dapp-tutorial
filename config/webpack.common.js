@@ -131,3 +131,4 @@ const commonConfig = (env) => ({
     new HtmlWebPackPlugin({
       template: path.resolve(__dirname, "../public/index.html"),
       chunks: ["index"],
+      filename: `${BUILD_PATH}/index.html`,
