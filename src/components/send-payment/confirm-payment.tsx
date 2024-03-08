@@ -84,3 +84,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
           <p className="detail-value">{props.network}</p>
         </div>
         <div className="tx-detail-item">
+          <p className="detail-header">To</p>
