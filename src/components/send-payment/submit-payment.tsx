@@ -26,3 +26,4 @@ interface SubmitPaymentProps {
   tokenSymbol: string;
 }
 
+// Defining the SubmitPayment component
