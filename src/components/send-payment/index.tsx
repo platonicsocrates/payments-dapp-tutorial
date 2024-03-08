@@ -316,3 +316,4 @@ export const SendPayment = (props: SendPaymentProps) => {
           } else {
             setStepCount((stepCount + 1) as StepCount);
           }
+        };
