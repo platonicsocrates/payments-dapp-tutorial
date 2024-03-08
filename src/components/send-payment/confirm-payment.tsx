@@ -78,3 +78,4 @@ export const ConfirmPayment = (props: ConfirmPaymentProps) => {
       </Heading>
 
       {/* Display transaction details */}
+      <div className="tx-details">
