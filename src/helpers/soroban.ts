@@ -79,3 +79,4 @@ export const parseTokenAmount = (value: string, decimals: number) => {
     fraction += "0";
   }
 
+  const wholeValue = new BigNumber(whole);
