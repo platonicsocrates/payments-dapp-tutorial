@@ -35,3 +35,4 @@ export const formatTokenAmount = (amount: BigNumber, decimals: number) => {
     while (formatted[formatted.length - 1] === "0") {
       formatted = formatted.substring(0, formatted.length - 1);
     }
+
